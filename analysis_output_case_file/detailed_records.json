@@ -1,0 +1,1244 @@
+[
+  {
+    "case": "BernardCells",
+    "relpath": "0/T",
+    "file_name": "T",
+    "benchmark_sim": 0.28466707391569945,
+    "benchmark_exists": true,
+    "standard_sim": 0.5159362549800797,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.2018881626724764,
+    "benchmark_exists": true,
+    "standard_sim": 0.5847347994825356,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/alphat",
+    "file_name": "alphat",
+    "benchmark_sim": 0.19440914866581957,
+    "benchmark_exists": true,
+    "standard_sim": 0.45,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/epsilon",
+    "file_name": "epsilon",
+    "benchmark_sim": 0.21782178217821782,
+    "benchmark_exists": true,
+    "standard_sim": 0.453125,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/k",
+    "file_name": "k",
+    "benchmark_sim": 0.21747831887925284,
+    "benchmark_exists": true,
+    "standard_sim": 0.4406392694063927,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/nut",
+    "file_name": "nut",
+    "benchmark_sim": 0.21059602649006623,
+    "benchmark_exists": true,
+    "standard_sim": 0.4459613196814562,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.597864768683274,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/p_rgh",
+    "file_name": "p_rgh",
+    "benchmark_sim": 0.19423368740515934,
+    "benchmark_exists": true,
+    "standard_sim": 0.608092485549133,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "constant/g",
+    "file_name": "g",
+    "benchmark_sim": 0.018505338078291814,
+    "benchmark_exists": true,
+    "standard_sim": 0.5449358059914408,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.00030900856533117027,
+    "benchmark_exists": true,
+    "standard_sim": 0.42776203966005666,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.09838321293429653,
+    "benchmark_exists": true,
+    "standard_sim": 0.7166666666666667,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.4343339587242026,
+    "benchmark_exists": true,
+    "standard_sim": 0.5102564102564102,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.04845548152634767,
+    "benchmark_exists": true,
+    "standard_sim": 0.24018126888217523,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/functions",
+    "file_name": "functions",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.12906556530717606,
+    "benchmark_exists": true,
+    "standard_sim": 0.6621392190152802,
+    "standard_exists": true
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.3484978540772532,
+    "benchmark_exists": true,
+    "standard_sim": 0.7095391211146839,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.54627539503386,
+    "benchmark_exists": true,
+    "standard_sim": 0.7153153153153153,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/epsilon",
+    "file_name": "epsilon",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/k",
+    "file_name": "k",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/nuTilda",
+    "file_name": "nuTilda",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/nut",
+    "file_name": "nut",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/omega",
+    "file_name": "omega",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.5662251655629139,
+    "benchmark_exists": true,
+    "standard_sim": 0.6873184898354308,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.24833702882483372,
+    "benchmark_exists": true,
+    "standard_sim": 0.42105263157894735,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.29782082324455206,
+    "benchmark_exists": true,
+    "standard_sim": 0.5250737463126843,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/boundary",
+    "file_name": "boundary",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.8854018069424632,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/faces",
+    "file_name": "faces",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.014015145399060274,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/neighbour",
+    "file_name": "neighbour",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.9656058227486799,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/owner",
+    "file_name": "owner",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.9820911050011146,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/points",
+    "file_name": "points",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.029705992064837736,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.5102880658436214,
+    "benchmark_exists": true,
+    "standard_sim": 0.8161120840630472,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.5230566534914362,
+    "benchmark_exists": true,
+    "standard_sim": 0.5725308641975309,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.34968017057569295,
+    "benchmark_exists": true,
+    "standard_sim": 0.32821143208358944,
+    "standard_exists": true
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.3685932388222465,
+    "benchmark_exists": true,
+    "standard_sim": 0.551791850760923,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/CH4",
+    "file_name": "CH4",
+    "benchmark_sim": 0.5838113448056087,
+    "benchmark_exists": true,
+    "standard_sim": 0.6259426847662142,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/CO2",
+    "file_name": "CO2",
+    "benchmark_sim": 0.583386992916935,
+    "benchmark_exists": true,
+    "standard_sim": 0.6326219512195121,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/H2O",
+    "file_name": "H2O",
+    "benchmark_sim": 0.583386992916935,
+    "benchmark_exists": true,
+    "standard_sim": 0.6326219512195121,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/N2",
+    "file_name": "N2",
+    "benchmark_sim": 0.5853658536585366,
+    "benchmark_exists": true,
+    "standard_sim": 0.6419379258137774,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/O2",
+    "file_name": "O2",
+    "benchmark_sim": 0.588310854206808,
+    "benchmark_exists": true,
+    "standard_sim": 0.6464799394398183,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/Qdot",
+    "file_name": "Qdot",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/T",
+    "file_name": "T",
+    "benchmark_sim": 0.5818414322250639,
+    "benchmark_exists": true,
+    "standard_sim": 0.6268882175226587,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.6074825618262524,
+    "benchmark_exists": true,
+    "standard_sim": 0.6577181208053692,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/Ydefault",
+    "file_name": "Ydefault",
+    "benchmark_sim": 0.5841269841269842,
+    "benchmark_exists": true,
+    "standard_sim": 0.6306306306306306,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/alphat",
+    "file_name": "alphat",
+    "benchmark_sim": 0.5258215962441315,
+    "benchmark_exists": true,
+    "standard_sim": 0.6725239616613419,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.49796472184531887,
+    "benchmark_exists": true,
+    "standard_sim": 0.638961038961039,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/uniform/time",
+    "file_name": "time",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/chemistryProperties",
+    "file_name": "chemistryProperties",
+    "benchmark_sim": 0.022834116856950974,
+    "benchmark_exists": true,
+    "standard_sim": 0.020066889632107024,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/combustionProperties",
+    "file_name": "combustionProperties",
+    "benchmark_sim": 0.032036613272311214,
+    "benchmark_exists": true,
+    "standard_sim": 0.4984025559105431,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.2905982905982906,
+    "benchmark_exists": true,
+    "standard_sim": 0.4911147011308562,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.1797945205479452,
+    "benchmark_exists": true,
+    "standard_sim": 0.6439024390243903,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/reactions",
+    "file_name": "reactions",
+    "benchmark_sim": 0.08648648648648649,
+    "benchmark_exists": true,
+    "standard_sim": 0.10434782608695652,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/thermo.compressibleGas",
+    "file_name": "thermo.compressibleGas",
+    "benchmark_sim": 0.04254201680672269,
+    "benchmark_exists": true,
+    "standard_sim": 0.01546551190844417,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.43656716417910446,
+    "benchmark_exists": true,
+    "standard_sim": 0.49591964846202136,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.3117723156532988,
+    "benchmark_exists": true,
+    "standard_sim": 0.728801681850035,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/functions",
+    "file_name": "functions",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.41445562671546204,
+    "benchmark_exists": true,
+    "standard_sim": 0.7876447876447876,
+    "standard_exists": true
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.4509715318572074,
+    "benchmark_exists": true,
+    "standard_sim": 0.6463414634146342,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.5239085239085239,
+    "benchmark_exists": true,
+    "standard_sim": 0.4426106526631658,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.5124653739612188,
+    "benchmark_exists": true,
+    "standard_sim": 0.3305534495830174,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.37684003925417076,
+    "benchmark_exists": true,
+    "standard_sim": 0.39955357142857145,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.3123425692695214,
+    "benchmark_exists": true,
+    "standard_sim": 0.5307346326836582,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.09241034195162635,
+    "benchmark_exists": true,
+    "standard_sim": 0.05716070591910042,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.4512610770279482,
+    "benchmark_exists": true,
+    "standard_sim": 0.6279234585400425,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.20306513409961685,
+    "benchmark_exists": true,
+    "standard_sim": 0.6037491919844861,
+    "standard_exists": true
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.24518664047151276,
+    "benchmark_exists": true,
+    "standard_sim": 0.3588709677419355,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "0/T",
+    "file_name": "T",
+    "benchmark_sim": 0.5149017121116043,
+    "benchmark_exists": true,
+    "standard_sim": 0.47714285714285715,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.5202744853399875,
+    "benchmark_exists": true,
+    "standard_sim": 0.44022503516174405,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.5519053876478318,
+    "benchmark_exists": true,
+    "standard_sim": 0.4853932584269663,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.31088082901554404,
+    "benchmark_exists": true,
+    "standard_sim": 0.4886731391585761,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.18101545253863136,
+    "benchmark_exists": true,
+    "standard_sim": 0.570670205706702,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.2386408534176215,
+    "benchmark_exists": true,
+    "standard_sim": 0.41450777202072536,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.06923076923076923,
+    "benchmark_exists": true,
+    "standard_sim": 0.7487401007919366,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.3988338192419825,
+    "benchmark_exists": true,
+    "standard_sim": 0.45169230769230767,
+    "standard_exists": true
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.17681060863651818,
+    "benchmark_exists": true,
+    "standard_sim": 0.25533311453889074,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "0/T",
+    "file_name": "T",
+    "benchmark_sim": 0.3719256148770246,
+    "benchmark_exists": true,
+    "standard_sim": 0.6220640569395017,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.4626951995373048,
+    "benchmark_exists": true,
+    "standard_sim": 0.6274777853725222,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.3196405648267009,
+    "benchmark_exists": true,
+    "standard_sim": 0.599549211119459,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.28498074454428757,
+    "benchmark_exists": true,
+    "standard_sim": 0.4886731391585761,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.22582921665490474,
+    "benchmark_exists": true,
+    "standard_sim": 0.7921311475409836,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.30318870883429166,
+    "benchmark_exists": true,
+    "standard_sim": 0.684931506849315,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.09637046307884856,
+    "benchmark_exists": true,
+    "standard_sim": 0.0851360781577111,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.3757509557618788,
+    "benchmark_exists": true,
+    "standard_sim": 0.2639821029082774,
+    "standard_exists": true
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.11764705882352941,
+    "benchmark_exists": true,
+    "standard_sim": 0.23346303501945526,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.5960355434039645,
+    "benchmark_exists": true,
+    "standard_sim": 0.6133979015334947,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/epsilon",
+    "file_name": "epsilon",
+    "benchmark_sim": 0.5328330206378987,
+    "benchmark_exists": true,
+    "standard_sim": 0.6028169014084507,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/k",
+    "file_name": "k",
+    "benchmark_sim": 0.5117759388924252,
+    "benchmark_exists": true,
+    "standard_sim": 0.6020114942528736,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/nuTilda",
+    "file_name": "nuTilda",
+    "benchmark_sim": 0.41009055627425617,
+    "benchmark_exists": true,
+    "standard_sim": 0.6098149637972646,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/nut",
+    "file_name": "nut",
+    "benchmark_sim": 0.4319136172765447,
+    "benchmark_exists": true,
+    "standard_sim": 0.6573816155988857,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.5900962861072903,
+    "benchmark_exists": true,
+    "standard_sim": 0.6011372867587328,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.17355371900826447,
+    "benchmark_exists": true,
+    "standard_sim": 0.6005089058524173,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.3075030750307503,
+    "benchmark_exists": true,
+    "standard_sim": 0.5181950509461426,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.22256664600123993,
+    "benchmark_exists": true,
+    "standard_sim": 0.3068604258195336,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.33915857605177996,
+    "benchmark_exists": true,
+    "standard_sim": 0.636245110821382,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.4049079754601227,
+    "benchmark_exists": true,
+    "standard_sim": 0.7864184008762322,
+    "standard_exists": true
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.372236958443855,
+    "benchmark_exists": true,
+    "standard_sim": 0.7206385404789054,
+    "standard_exists": true
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/h",
+    "file_name": "h",
+    "benchmark_sim": 0.19894055326662743,
+    "benchmark_exists": true,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/h.orig",
+    "file_name": "h.orig",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/hTotal",
+    "file_name": "hTotal",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/hU",
+    "file_name": "hU",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/hU.orig",
+    "file_name": "hU.orig",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "constant/gravitationalProperties",
+    "file_name": "gravitationalProperties",
+    "benchmark_sim": 0.28308400460299193,
+    "benchmark_exists": true,
+    "standard_sim": 0.3818424566088118,
+    "standard_exists": true
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "constant/h0",
+    "file_name": "h0",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "constant/h0.orig",
+    "file_name": "h0.orig",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.6347124117053481,
+    "benchmark_exists": true,
+    "standard_sim": 0.43778280542986425,
+    "standard_exists": true
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.45305514157973176,
+    "benchmark_exists": true,
+    "standard_sim": 0.6365105008077544,
+    "standard_exists": true
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.49101053936763794,
+    "benchmark_exists": true,
+    "standard_sim": 0.5484848484848485,
+    "standard_exists": true
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.43776371308016876,
+    "benchmark_exists": true,
+    "standard_sim": 0.5923198316675434,
+    "standard_exists": true
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/setFieldsDict",
+    "file_name": "setFieldsDict",
+    "benchmark_sim": 0.24631396357328708,
+    "benchmark_exists": true,
+    "standard_sim": 0.30514096185737977,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/T",
+    "file_name": "T",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.4473007712082262,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.23761118170266837,
+    "benchmark_exists": true,
+    "standard_sim": 0.6274228284278536,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/alphat",
+    "file_name": "alphat",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.616822429906542,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/epsilon",
+    "file_name": "epsilon",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.4694408322496749,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/k",
+    "file_name": "k",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.33026222537207656,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/nut",
+    "file_name": "nut",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.5980317940953823,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.40789473684210525,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.6007604562737643,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.698859825620389,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/boundary",
+    "file_name": "boundary",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.5794684731631058,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/cellZones",
+    "file_name": "cellZones",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/faces",
+    "file_name": "faces",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 9.658310551976638e-05,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/neighbour",
+    "file_name": "neighbour",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0005126990226483003,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/owner",
+    "file_name": "owner",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0004961726220951033,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/points",
+    "file_name": "points",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0002799273799013999,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.2711976245463543,
+    "benchmark_exists": true,
+    "standard_sim": 0.2745664739884393,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.4044943820224719,
+    "benchmark_exists": true,
+    "standard_sim": 0.6916167664670658,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/decomposeParDict",
+    "file_name": "decomposeParDict",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/fvConstraints",
+    "file_name": "fvConstraints",
+    "benchmark_sim": 0.0,
+    "benchmark_exists": false,
+    "standard_sim": 0.0,
+    "standard_exists": false
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.4428507395786643,
+    "benchmark_exists": true,
+    "standard_sim": 0.580542264752791,
+    "standard_exists": true
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.32002956393200294,
+    "benchmark_exists": true,
+    "standard_sim": 0.5474794841735052,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "0/T",
+    "file_name": "T",
+    "benchmark_sim": 0.5502998001332445,
+    "benchmark_exists": true,
+    "standard_sim": 0.5537974683544303,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "0/U",
+    "file_name": "U",
+    "benchmark_sim": 0.5631196298744217,
+    "benchmark_exists": true,
+    "standard_sim": 0.5595611285266457,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "0/p",
+    "file_name": "p",
+    "benchmark_sim": 0.5514950166112956,
+    "benchmark_exists": true,
+    "standard_sim": 0.5536277602523659,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "constant/momentumTransport",
+    "file_name": "momentumTransport",
+    "benchmark_sim": 0.28498074454428757,
+    "benchmark_exists": true,
+    "standard_sim": 0.4886731391585761,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "constant/physicalProperties",
+    "file_name": "physicalProperties",
+    "benchmark_sim": 0.23272727272727273,
+    "benchmark_exists": true,
+    "standard_sim": 0.7921311475409836,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/blockMeshDict",
+    "file_name": "blockMeshDict",
+    "benchmark_sim": 0.3522975929978118,
+    "benchmark_exists": true,
+    "standard_sim": 0.5234587049243893,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/controlDict",
+    "file_name": "controlDict",
+    "benchmark_sim": 0.5025125628140703,
+    "benchmark_exists": true,
+    "standard_sim": 0.24029850746268658,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/fvSchemes",
+    "file_name": "fvSchemes",
+    "benchmark_sim": 0.37554585152838427,
+    "benchmark_exists": true,
+    "standard_sim": 0.2632459564974902,
+    "standard_exists": true
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/fvSolution",
+    "file_name": "fvSolution",
+    "benchmark_sim": 0.13395904436860068,
+    "benchmark_exists": true,
+    "standard_sim": 0.14985014985014986,
+    "standard_exists": true
+  }
+]

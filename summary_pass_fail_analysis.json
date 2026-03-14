@@ -1,0 +1,3387 @@
+{
+  "cases": [
+    "BernardCells",
+    "Cavity",
+    "Cylinder",
+    "counterFlowFlame2D",
+    "forwardStep",
+    "obliqueShock",
+    "pitzDaily",
+    "shallowWaterWithSquareBump",
+    "squareBend",
+    "wedge"
+  ],
+  "case_ids": [
+    "1",
+    "2",
+    "3"
+  ],
+  "status_counts": {
+    "benchmark": {
+      "FAIL_OR_POOR": 30
+    },
+    "standard": {
+      "FAIL_OR_POOR": 30
+    }
+  },
+  "results": {
+    "benchmark": [
+      {
+        "case": "BernardCells",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.875,
+        "avg_similarity": 0.2701655547714524,
+        "high_similarity_files": 0,
+        "compared_files": 14,
+        "gt_files_total": 16,
+        "missing_files": [
+          "0/p",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.000270591532417832
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.04328453214513049
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.10484164543137969
+          },
+          {
+            "rel": "constant/g",
+            "sim": 0.18634538152610441
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.23763837638376384
+          },
+          {
+            "rel": "0/p_rgh",
+            "sim": 0.3126079447322971
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.32202477113624123
+          },
+          {
+            "rel": "0/alphat",
+            "sim": 0.33663366336633666
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\1\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": "l&, Foam::label&, Foam::cellList&)     in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 324.  FOAM aborting  #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::error::abort() at ??:? #2  Foam::polyMesh::setTopology(Foam::List<Foam::cellShape> const&, Foam::List<Foam::List<Foam::face> > const&, Foam::List<Foam::word> cons"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\1\\log.buoyantFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\1"
+      },
+      {
+        "case": "BernardCells",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.875,
+        "avg_similarity": 0.3411628298316658,
+        "high_similarity_files": 0,
+        "compared_files": 14,
+        "gt_files_total": 16,
+        "missing_files": [
+          "0/p",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.17708333333333334
+          },
+          {
+            "rel": "constant/g",
+            "sim": 0.1937128292268479
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.2126865671641791
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.24316109422492402
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.2745404771216269
+          },
+          {
+            "rel": "0/p_rgh",
+            "sim": 0.3126079447322971
+          },
+          {
+            "rel": "0/alphat",
+            "sim": 0.33663366336633666
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.34519746465138956
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\2\\log.buoyantFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "l properties  Selecting thermodynamics package pureMixture<const<perfectGas<specie>>,sensibleInternalEnergy>   --> FOAM FATAL ERROR:  Unknown fluidThermo type pureMixture<const<perfectGas<specie>>,sensibleInternalEnergy>  Valid fluidThermo types are:  130 ( hePsiThermo<coefficientWilkeMultiComponentMixture<const<eConst<perfectGas<specie>>"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\2"
+      },
+      {
+        "case": "BernardCells",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.875,
+        "avg_similarity": 0.31230659744901207,
+        "high_similarity_files": 0,
+        "compared_files": 14,
+        "gt_files_total": 16,
+        "missing_files": [
+          "0/p",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.03841229193341869
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.14278376990241398
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.17237008871989862
+          },
+          {
+            "rel": "constant/g",
+            "sim": 0.24535315985130113
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.26299694189602446
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.2969555035128806
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.34536585365853656
+          },
+          {
+            "rel": "0/alphat",
+            "sim": 0.34718100890207715
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\3\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": "l&, Foam::label&, Foam::cellList&)     in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 324.  FOAM aborting  #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::error::abort() at ??:? #2  Foam::polyMesh::setTopology(Foam::List<Foam::cellShape> const&, Foam::List<Foam::List<Foam::face> > const&, Foam::List<Foam::word> cons"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\3\\log.buoyantFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "dlLibraryTable/dlLibraryTable.C at line 106     could not load \"libfvMeshTools.so\" Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\BernardCells\\3"
+      },
+      {
+        "case": "Cavity",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.4444444444444444,
+        "avg_similarity": 0.46041902887582986,
+        "high_similarity_files": 0,
+        "compared_files": 8,
+        "gt_files_total": 18,
+        "missing_files": [
+          "0/epsilon",
+          "0/k",
+          "0/nuTilda",
+          "0/nut",
+          "0/omega",
+          "constant/polyMesh/boundary",
+          "constant/polyMesh/faces",
+          "constant/polyMesh/neighbour",
+          "constant/polyMesh/owner",
+          "constant/polyMesh/points"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.2735961768219833
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3692722371967655
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.37237237237237236
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.4801178203240059
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.5102880658436214
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5560307955517536
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5606060606060606
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5610687022900763
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cavity\\1\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Reading \"blockMeshDict\"    --> FOAM FATAL ERROR:  Cannot find file \"system/blockMeshDict\"       From function int main(int, char**)     in file blockMesh.C at line 159.  FOAM exiting  "
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cavity\\1\\log.pisoFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cavity\\1"
+      },
+      {
+        "case": "Cavity",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.7222222222222222,
+        "avg_similarity": 0.5292211766293359,
+        "high_similarity_files": 1,
+        "compared_files": 13,
+        "gt_files_total": 18,
+        "missing_files": [
+          "0/epsilon",
+          "0/k",
+          "0/nuTilda",
+          "0/nut",
+          "0/omega"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.15759128763613067
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3390804597701149
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.37237237237237236
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.4448356807511737
+          },
+          {
+            "rel": "constant/polyMesh/points",
+            "sim": 0.4634713193438647
+          },
+          {
+            "rel": "constant/polyMesh/faces",
+            "sim": 0.47211956169357455
+          },
+          {
+            "rel": "constant/polyMesh/owner",
+            "sim": 0.5075665859564165
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.546583850931677
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cavity\\2\\log.pisoFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL IO ERROR:  keyword PISO is undefined in dictionary \"/mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/Cavity/2/system/fvSolution\"  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/Cavity/2/sy"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cavity\\2"
+      },
+      {
+        "case": "Cavity",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.7222222222222222,
+        "avg_similarity": 0.6232167602855294,
+        "high_similarity_files": 3,
+        "compared_files": 13,
+        "gt_files_total": 18,
+        "missing_files": [
+          "0/epsilon",
+          "0/k",
+          "0/nuTilda",
+          "0/nut",
+          "0/omega"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.17377812257564004
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3692722371967655
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.36936936936936937
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.41450777202072536
+          },
+          {
+            "rel": "constant/polyMesh/faces",
+            "sim": 0.4844712442456072
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5575447570332481
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5610687022900763
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5780080598733448
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cavity\\3\\log.pisoFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "dlLibraryTable/dlLibraryTable.C at line 106     could not load \"libfvMeshTools.so\" Create mesh for time = 0    --> FOAM FATAL IO ERROR:  keyword PISO is undefined in dictionary \"/mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/Cavity/3/system/fvSolution\"  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/Cavity/3/sy"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cavity\\3"
+      },
+      {
+        "case": "Cylinder",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.40650642860532604,
+        "high_similarity_files": 0,
+        "compared_files": 8,
+        "gt_files_total": 8,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.12236503856041131
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.2531440162271805
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.3655761024182077
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.38801261829652994
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3981373690337602
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.5623648161499639
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5747663551401869
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5876851130163678
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cylinder\\1\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "m     \"system/blockMeshDict\" Creating block edges No non-planar block faces defined Creating topology blocks   --> FOAM FATAL IO ERROR:  Block hex (0 1 2 3 4 5 6 7) (20 20 1) simpleGrading (1(1) 1(1) 1(1)) has inward-pointing faces     4(0 1 5 4)   file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/Cylinder/1/system/blockMesh"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cylinder\\1\\log.rhoPimpleFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "y/dlLibraryTable/dlLibraryTable.C at line 106     could not load \"libfvOptions.so\" Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cylinder\\1"
+      },
+      {
+        "case": "Cylinder",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.44968880718833554,
+        "high_similarity_files": 0,
+        "compared_files": 8,
+        "gt_files_total": 8,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.1889562719438238
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.32819968135953265
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.3779527559055118
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3883495145631068
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5342465753424658
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.5731080088170463
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5747273893521488
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6319702602230484
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cylinder\\2\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "eate time  Reading \"blockMeshDict\"  Creating block mesh from     \"system/blockMeshDict\" Creating block edges   --> FOAM FATAL IO ERROR:  wrong token type - expected int32_t, found on line 34 the punctuation token '('  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/Cylinder/2/system/blockMeshDict/edges at line 34.      Fro"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cylinder\\2\\log.rhoPimpleFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cylinder\\2"
+      },
+      {
+        "case": "Cylinder",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.39897590822209306,
+        "high_similarity_files": 0,
+        "compared_files": 8,
+        "gt_files_total": 8,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.20061879172773164
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.2238152130625249
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.3517203713817586
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3825
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.3854660347551343
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.4094955489614243
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.6062210456651225
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6319702602230484
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\Cylinder\\3"
+      },
+      {
+        "case": "counterFlowFlame2D",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8695652173913043,
+        "avg_similarity": 0.4637358874599685,
+        "high_similarity_files": 0,
+        "compared_files": 20,
+        "gt_files_total": 23,
+        "missing_files": [
+          "0/Qdot",
+          "0/uniform/time",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/thermo.compressibleGas",
+            "sim": 0.03234649122807018
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.1111111111111111
+          },
+          {
+            "rel": "constant/chemistryProperties",
+            "sim": 0.12017937219730941
+          },
+          {
+            "rel": "constant/reactions",
+            "sim": 0.1282714984181766
+          },
+          {
+            "rel": "constant/combustionProperties",
+            "sim": 0.23373759647188533
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.38239757207890746
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.4098124098124098
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.4471865745310958
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\1\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "m     \"system/blockMeshDict\" Creating block edges No non-planar block faces defined Creating topology blocks   --> FOAM FATAL IO ERROR:  Block hex (0 1 2 3 4 5 6 7) (50 50 1) simpleGrading (1(1) 1(1) 1(1)) has inward-pointing faces     4(0 3 2 1) 4(4 5 6 7)   file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/counterFlowFlame"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\1\\log.reactingFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\1"
+      },
+      {
+        "case": "counterFlowFlame2D",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8695652173913043,
+        "avg_similarity": 0.4299421228013397,
+        "high_similarity_files": 0,
+        "compared_files": 20,
+        "gt_files_total": 23,
+        "missing_files": [
+          "0/Qdot",
+          "0/uniform/time",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/reactions",
+            "sim": 0.006260032102728732
+          },
+          {
+            "rel": "constant/thermo.compressibleGas",
+            "sim": 0.03252496433666191
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.1112214498510427
+          },
+          {
+            "rel": "constant/combustionProperties",
+            "sim": 0.12614980289093297
+          },
+          {
+            "rel": "constant/chemistryProperties",
+            "sim": 0.1403180542563143
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.2667429879793932
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.3585038814396613
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3829787234042553
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\2\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Reading \"blockMeshDict\"    --> FOAM FATAL ERROR:  Cannot find file \"system/blockMeshDict\"       From function int main(int, char**)     in file blockMesh.C at line 159.  FOAM exiting  "
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\2\\log.reactingFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\2"
+      },
+      {
+        "case": "counterFlowFlame2D",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8695652173913043,
+        "avg_similarity": 0.43722990328568034,
+        "high_similarity_files": 0,
+        "compared_files": 20,
+        "gt_files_total": 23,
+        "missing_files": [
+          "0/Qdot",
+          "0/uniform/time",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/thermo.compressibleGas",
+            "sim": 0.06041923551171394
+          },
+          {
+            "rel": "constant/chemistryProperties",
+            "sim": 0.10909090909090909
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.1476407914764079
+          },
+          {
+            "rel": "constant/combustionProperties",
+            "sim": 0.14780600461893764
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.19734904270986744
+          },
+          {
+            "rel": "constant/reactions",
+            "sim": 0.1974025974025974
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.28741220961642355
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.40863309352517985
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\3\\log.reactingFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "sient mode with 1 outer corrector PIMPLE: Operating solver in PISO mode   Reading thermophysical properties    --> FOAM FATAL IO ERROR:  keyword thermoType is undefined in dictionary \"/mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/counterFlowFlame2D/3/constant/physicalProperties\"  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwe"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\counterFlowFlame2D\\3"
+      },
+      {
+        "case": "forwardStep",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.3482759673233412,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.09174311926605505
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.18482560230133047
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.3458009880028229
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.3525938422606495
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.36
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4084967320261438
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.42411642411642414
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.47430249632892807
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\1\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": ":faceListList&, Foam::label) const     in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 118.  FOAM aborting  #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::error::abort() at ??:? #2  Foam::polyMesh::facePatchFaceCells(Foam::List<Foam::face> const&, Foam::List<Foam::List<int> > const&, Foam::List<Foam::List<Foam::face"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\1\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\1"
+      },
+      {
+        "case": "forwardStep",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.3826472578147656,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.14191660570592537
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.2566585956416465
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.30421455938697317
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.38677918424753865
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3981042654028436
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.45722108145106094
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.46277665995975853
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.49082858950031627
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\2\\log.rhoCentralFoam",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": "ionaryEntry::stream() const     in file db/dictionary/dictionaryEntry/dictionaryEntry.C at line 83.  FOAM aborting  #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::IOerror::abort() at ??:? #2  Foam::dictionaryEntry::stream() const at ??:? #3  Foam::HashTable<Foam::autoPtr<Foam::psiThermo> (*)(Foam::fvMesh const&, Foam::word "
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\2"
+      },
+      {
+        "case": "forwardStep",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.33522781363900545,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.029556650246305417
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.3159570234779148
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.33482142857142855
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.3458009880028229
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.35497470489038785
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.3557142857142857
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3829787234042553
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.4229440221147201
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\3\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": ":faceListList&, Foam::label) const     in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 118.  FOAM aborting  #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::error::abort() at ??:? #2  Foam::polyMesh::facePatchFaceCells(Foam::List<Foam::face> const&, Foam::List<Foam::List<int> > const&, Foam::List<Foam::List<Foam::face"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\3\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\forwardStep\\3"
+      },
+      {
+        "case": "obliqueShock",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.36751683419053516,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.12606303151575787
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.18297533810660302
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.30318870883429166
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.3852573018080668
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.39095315024232635
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.4021543985637343
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.41630901287553645
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.5335102853351028
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\1\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Reading \"blockMeshDict\"    --> FOAM FATAL ERROR:  Cannot find file \"system/blockMeshDict\"       From function int main(int, char**)     in file blockMesh.C at line 159.  FOAM exiting  "
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\1\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\1"
+      },
+      {
+        "case": "obliqueShock",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.38425366595325056,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.01606425702811245
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.12681510164569215
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.37789904502046384
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.3968503937007874
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.43088418430884184
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.4928639391056137
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.5335102853351028
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5411614550095725
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\2\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "me  Create mesh for time = 0  Reading thermophysical properties  Selecting thermodynamics package perfectGas   --> FOAM FATAL ERROR:  Unknown psiThermo type perfectGas  Valid psiThermo types are:  56 ( hePsiThermo<coefficientWilkeMultiComponentMixture<const<eConst<perfectGas<specie>>,sensibleInternalEnergy>>> hePsiThermo<coefficientWilkeM"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\2"
+      },
+      {
+        "case": "obliqueShock",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.35087802984991356,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.09032258064516129
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.1168724279835391
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.17272298253893345
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.3292604501607717
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.39095315024232635
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.47255813953488374
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.5179760319573902
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5263157894736842
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\3\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": "l&, Foam::label&, Foam::cellList&)     in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 324.  FOAM aborting  #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::error::abort() at ??:? #2  Foam::polyMesh::setTopology(Foam::List<Foam::cellShape> const&, Foam::List<Foam::List<Foam::face> > const&, Foam::List<Foam::word> cons"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\3\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\obliqueShock\\3"
+      },
+      {
+        "case": "pitzDaily",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4518877086969097,
+        "high_similarity_files": 0,
+        "compared_files": 12,
+        "gt_files_total": 12,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.22759059122695485
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.22772277227722773
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.3642806520198441
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.3783393501805054
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.37978560490045943
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.4005708848715509
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.4461431549687283
+          },
+          {
+            "rel": "0/nut",
+            "sim": 0.4936960849369608
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\1\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "m     \"system/blockMeshDict\" Creating block edges No non-planar block faces defined Creating topology blocks   --> FOAM FATAL IO ERROR:  Expected a ')' while reading VectorSpace<Form, Cmpt, Ncmpts>, found on line 26 the label 1  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/pitzDaily/1/system/blockMeshDict/blocks at line"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\1\\log.pimpleFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\1"
+      },
+      {
+        "case": "pitzDaily",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.48260197657878834,
+        "high_similarity_files": 0,
+        "compared_files": 12,
+        "gt_files_total": 12,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.1982142857142857
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.3436207445116131
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.35193621867881547
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.374079528718704
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.3783393501805054
+          },
+          {
+            "rel": "0/nut",
+            "sim": 0.4936960849369608
+          },
+          {
+            "rel": "0/nuTilda",
+            "sim": 0.5049928673323824
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5783521809369951
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\2\\log.pimpleFoam",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": ":min(const dimensionSet&, const dimensionSet&)     in file dimensionSet/dimensionSet.C at line 245.  FOAM aborting  #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::error::abort() at ??:? #2  Foam::min(Foam::dimensionSet const&, Foam::dimensionSet const&) at ??:? #3  Foam::tmp<Foam::GeometricField<double, Foam::fvPatchField, "
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\2"
+      },
+      {
+        "case": "pitzDaily",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4455834371421202,
+        "high_similarity_files": 0,
+        "compared_files": 12,
+        "gt_files_total": 12,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "0/epsilon",
+            "sim": 0.21433542101600556
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.23483870967741935
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.352324819908317
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.3642806520198441
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.3767228177641654
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.3783393501805054
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.3996203132415757
+          },
+          {
+            "rel": "0/nut",
+            "sim": 0.508544087491456
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\3\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": " No non-planar block faces defined Creating topology blocks Creating topology patches  Creating block mesh topology #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::sigSegv::sigHandler(int) at ??:? #2  ? in \"/lib64/libc.so.6\" #3  Foam::polyMesh::setTopology(Foam::List<Foam::cellShape> const&, Foam::List<Foam::List<Foam::face>"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\3\\log.pimpleFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\pitzDaily\\3"
+      },
+      {
+        "case": "shallowWaterWithSquareBump",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.5384615384615384,
+        "avg_similarity": 0.34877939405990416,
+        "high_similarity_files": 0,
+        "compared_files": 7,
+        "gt_files_total": 13,
+        "missing_files": [
+          "0/h.orig",
+          "0/hTotal",
+          "0/hU",
+          "0/hU.orig",
+          "constant/h0",
+          "constant/h0.orig"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.032148900169204735
+          },
+          {
+            "rel": "0/h",
+            "sim": 0.14082767140210006
+          },
+          {
+            "rel": "system/setFieldsDict",
+            "sim": 0.283987915407855
+          },
+          {
+            "rel": "constant/gravitationalProperties",
+            "sim": 0.3638928067700987
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.41569167240192706
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.45622119815668205
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.7486855941114616
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\1\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "ator()(Foam::Istream&) const     in file setFields.C at line 179     field type 0.01 not currently supported   --> FOAM FATAL IO ERROR:  wrong token type - expected word, found on line 12 the punctuation token ';'  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/shallowWaterWithSquareBump/1/system/setFieldsDict/defaultFiel"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\1\\log.shallowWaterFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "ansient mode with 1 outer corrector PIMPLE: Operating solver in PISO mode    Reading gravitationalProperties   --> FOAM FATAL IO ERROR:  expected a [ in dimensionSet in stream ITstream : /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/shallowWaterWithSquareBump/1/constant/gravitationalProperties/g, line 10, IOstream: Version 2.0"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\1"
+      },
+      {
+        "case": "shallowWaterWithSquareBump",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.46153846153846156,
+        "avg_similarity": 0.4001535821996185,
+        "high_similarity_files": 0,
+        "compared_files": 6,
+        "gt_files_total": 13,
+        "missing_files": [
+          "0/h",
+          "0/h.orig",
+          "0/hTotal",
+          "0/hU",
+          "0/hU.orig",
+          "constant/h0",
+          "constant/h0.orig"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/setFieldsDict",
+            "sim": 0.21541010770505387
+          },
+          {
+            "rel": "constant/gravitationalProperties",
+            "sim": 0.3757062146892655
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.4268142681426814
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.44148936170212766
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.4471195184866724
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.4943820224719101
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\2\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "* * * * * * * // Create time  Create mesh for time = 0  Reading \"setFieldsDict\"  Setting field region values   --> FOAM FATAL IO ERROR:  keyword regions is undefined in dictionary \"/mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/shallowWaterWithSquareBump/2/system/setFieldsDict\"  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\2\\log.shallowWaterFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "ansient mode with 1 outer corrector PIMPLE: Operating solver in PISO mode    Reading gravitationalProperties   --> FOAM FATAL IO ERROR:  wrong token type - expected word, found on line 10 the punctuation token '('  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/shallowWaterWithSquareBump/2/constant/gravitationalProperties"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\2"
+      },
+      {
+        "case": "shallowWaterWithSquareBump",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.15384615384615385,
+        "avg_similarity": 0.3710785642608839,
+        "high_similarity_files": 0,
+        "compared_files": 2,
+        "gt_files_total": 13,
+        "missing_files": [
+          "0/h",
+          "0/h.orig",
+          "0/hTotal",
+          "0/hU",
+          "0/hU.orig",
+          "constant/gravitationalProperties",
+          "constant/h0",
+          "constant/h0.orig",
+          "system/fvSchemes",
+          "system/fvSolution",
+          "system/setFieldsDict"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.06829436830588506
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.6738627602158828
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\3\\Allrun.err",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "ryIO.C at line 129     Reading system/controlDict     found on line 49 an error     expected either } or EOF   --> FOAM FATAL IO ERROR:   Essential value for keyword 'points' not set Essential value for keyword 'fields' not set  In function entry:     probes  In file:     /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/shallowWa"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\shallowWaterWithSquareBump\\3"
+      },
+      {
+        "case": "squareBend",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.23809523809523808,
+        "avg_similarity": 0.40404279919916297,
+        "high_similarity_files": 0,
+        "compared_files": 5,
+        "gt_files_total": 21,
+        "missing_files": [
+          "0/T",
+          "0/alphat",
+          "0/epsilon",
+          "0/k",
+          "0/nut",
+          "0/p",
+          "constant/momentumTransport",
+          "constant/physicalProperties",
+          "constant/polyMesh/boundary",
+          "constant/polyMesh/cellZones",
+          "constant/polyMesh/faces",
+          "constant/polyMesh/neighbour",
+          "constant/polyMesh/owner",
+          "constant/polyMesh/points",
+          "system/decomposeParDict",
+          "system/fvConstraints"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.2785496441884107
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.3377847604084839
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.4101838755304102
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.4924885695623775
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5012071463061323
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\1\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "m     \"system/blockMeshDict\" Creating block edges No non-planar block faces defined Creating topology blocks   --> FOAM FATAL IO ERROR:  Block hex (0 1 3 2 4 5 7 6) (20 20 20) simpleGrading (1(1) 1(1) 1(1)) has inward-pointing faces     4(0 1 5 4)   file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/squareBend/1/system/blockM"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\1\\log.rhoSimpleFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\1\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\1"
+      },
+      {
+        "case": "squareBend",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.47619047619047616,
+        "avg_similarity": 0.4303684529587404,
+        "high_similarity_files": 0,
+        "compared_files": 10,
+        "gt_files_total": 21,
+        "missing_files": [
+          "0/alphat",
+          "constant/momentumTransport",
+          "constant/physicalProperties",
+          "constant/polyMesh/boundary",
+          "constant/polyMesh/cellZones",
+          "constant/polyMesh/faces",
+          "constant/polyMesh/neighbour",
+          "constant/polyMesh/owner",
+          "constant/polyMesh/points",
+          "system/decomposeParDict",
+          "system/fvConstraints"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.28355127322780455
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.2931094788387548
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.4085576259489303
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.4098939929328622
+          },
+          {
+            "rel": "0/nut",
+            "sim": 0.44511278195488724
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.4555921052631579
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.48343373493975905
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5012126111560227
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\2\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "m     \"system/blockMeshDict\" Creating block edges No non-planar block faces defined Creating topology blocks   --> FOAM FATAL IO ERROR:  Block hex (0 1 2 3 4 5 4 5) (20 20 20) simpleGrading (1(1) 1(1) 1(1)) has inward-pointing faces     4(0 1 5 4)   file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/squareBend/2/system/blockM"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\2\\log.rhoSimpleFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "dlLibraryTable/dlLibraryTable.C at line 106     could not load \"libfvMeshTools.so\" Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\2\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "dlLibraryTable/dlLibraryTable.C at line 106     could not load \"libfvMeshTools.so\" Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\2"
+      },
+      {
+        "case": "squareBend",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.42857142857142855,
+        "avg_similarity": 0.40417296134597636,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 21,
+        "missing_files": [
+          "0/alphat",
+          "0/nut",
+          "constant/momentumTransport",
+          "constant/physicalProperties",
+          "constant/polyMesh/boundary",
+          "constant/polyMesh/cellZones",
+          "constant/polyMesh/faces",
+          "constant/polyMesh/neighbour",
+          "constant/polyMesh/owner",
+          "constant/polyMesh/points",
+          "system/decomposeParDict",
+          "system/fvConstraints"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "0/k",
+            "sim": 0.24702380952380953
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.2750735053903953
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.33824670287044223
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.4101838755304102
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.41643454038997213
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.4645717806531115
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.4701492537313433
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5041282175813502
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\3\\log.blockMesh",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "eate time  Reading \"blockMeshDict\"  Creating block mesh from     \"system/blockMeshDict\" Creating block edges   --> FOAM FATAL IO ERROR:  wrong token type - expected int32_t, found on line 31 the punctuation token '('  file: /mnt/home/DDN_Copy/rpi/pxu10/standard/qwen-benchmark/runs/squareBend/3/system/blockMeshDict/edges at line 31.      F"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\3\\log.rhoSimpleFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\3\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\squareBend\\3"
+      },
+      {
+        "case": "wedge",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4252735343392444,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.1168724279835391
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.14377289377289376
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.39095315024232635
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.4019138755980861
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.41907051282051283
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.549889135254989
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.587360594795539
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.6061452513966481
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\1\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": " normal (0 1 0) differs from the average normal (0 0 0) by 1 Either correct the patch or split it into planar parts #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::sigFpe::sigHandler(int) at ??:? #2  ? in \"/lib64/libc.so.6\" #3  ? at wedgePolyPatch.C:? #4  Foam::polyBoundaryMesh::calcGeometry() at ??:? #5  Foam::polyMesh::pol"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\1\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "dlLibraryTable/dlLibraryTable.C at line 106     could not load \"libfvMeshTools.so\" Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\1\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": "dlLibraryTable/dlLibraryTable.C at line 106     could not load \"libfvMeshTools.so\" Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\1"
+      },
+      {
+        "case": "wedge",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.6666666666666666,
+        "avg_similarity": 0.3661695531067321,
+        "high_similarity_files": 0,
+        "compared_files": 6,
+        "gt_files_total": 9,
+        "missing_files": [
+          "0/T",
+          "0/U",
+          "0/p"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.16913687881429817
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.37296747967479676
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.375
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.3875147232037691
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.39095315024232635
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.5014450867052023
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\2\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": " normal (0 1 0) differs from the average normal (0 0 0) by 1 Either correct the patch or split it into planar parts #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::sigFpe::sigHandler(int) at ??:? #2  ? in \"/lib64/libc.so.6\" #3  ? at wedgePolyPatch.C:? #4  Foam::polyBoundaryMesh::calcGeometry() at ??:? #5  Foam::polyMesh::pol"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\2\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\2\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\2"
+      },
+      {
+        "case": "wedge",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.6666666666666666,
+        "avg_similarity": 0.3604607713962424,
+        "high_similarity_files": 0,
+        "compared_files": 6,
+        "gt_files_total": 9,
+        "missing_files": [
+          "0/T",
+          "0/U",
+          "0/p"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.16913687881429817
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.27648839556004035
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.34728682170542635
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.40236686390532544
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.4082792207792208
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.5592064476131432
+          }
+        ],
+        "error_hits": [
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\3\\log.blockMesh",
+            "pattern": "\\bFoam::error\\b",
+            "snippet": " normal (0 1 0) differs from the average normal (0 0 0) by 1 Either correct the patch or split it into planar parts #0  Foam::error::printStack(Foam::Ostream&) at ??:? #1  Foam::sigFpe::sigHandler(int) at ??:? #2  ? in \"/lib64/libc.so.6\" #3  ? at wedgePolyPatch.C:? #4  Foam::polyBoundaryMesh::calcGeometry() at ??:? #5  Foam::polyMesh::pol"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\3\\log.rhoCentralFoam",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          },
+          {
+            "file": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\3\\log.setFields",
+            "pattern": "\\bFATAL\\b",
+            "snippet": " * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * // Create time  Create mesh for time = 0    --> FOAM FATAL ERROR:  Cannot find file \"points\" in directory \"polyMesh\" in times \"0\" down to constant      From function virtual Foam::IOobject Foam::fileOperation::findInstance(const Foam::IOobject&, Foam::scalar, const Foam::w"
+          }
+        ],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-benchmark_runs\\wedge\\3"
+      }
+    ],
+    "standard": [
+      {
+        "case": "BernardCells",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.9375,
+        "avg_similarity": 0.5271889619579723,
+        "high_similarity_files": 0,
+        "compared_files": 15,
+        "gt_files_total": 16,
+        "missing_files": [
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.24018126888217523
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.42776203966005666
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.4406392694063927
+          },
+          {
+            "rel": "0/nut",
+            "sim": 0.4459613196814562
+          },
+          {
+            "rel": "0/alphat",
+            "sim": 0.45
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.453125
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.5102564102564102
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.5159362549800797
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\BernardCells\\1"
+      },
+      {
+        "case": "BernardCells",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.9375,
+        "avg_similarity": 0.49541854469722335,
+        "high_similarity_files": 0,
+        "compared_files": 15,
+        "gt_files_total": 16,
+        "missing_files": [
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.24018126888217523
+          },
+          {
+            "rel": "0/alphat",
+            "sim": 0.31130434782608696
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.385834109972041
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.3995082974800246
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.42776203966005666
+          },
+          {
+            "rel": "0/nut",
+            "sim": 0.49382716049382713
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.49571020019065776
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5049900199600799
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\BernardCells\\2"
+      },
+      {
+        "case": "BernardCells",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.9375,
+        "avg_similarity": 0.5016959808913135,
+        "high_similarity_files": 0,
+        "compared_files": 15,
+        "gt_files_total": 16,
+        "missing_files": [
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.24018126888217523
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.4009870450339297
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.42776203966005666
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.4406392694063927
+          },
+          {
+            "rel": "0/nut",
+            "sim": 0.4459613196814562
+          },
+          {
+            "rel": "0/alphat",
+            "sim": 0.45
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.4501108647450111
+          },
+          {
+            "rel": "0/p_rgh",
+            "sim": 0.49607182940516276
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\BernardCells\\3"
+      },
+      {
+        "case": "Cavity",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.7222222222222222,
+        "avg_similarity": 0.7398004933959592,
+        "high_similarity_files": 5,
+        "compared_files": 13,
+        "gt_files_total": 18,
+        "missing_files": [
+          "0/epsilon",
+          "0/k",
+          "0/nuTilda",
+          "0/nut",
+          "0/omega"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.32821143208358944
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.42105263157894735
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5250737463126843
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.551791850760923
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.5725308641975309
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.6873184898354308
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.7153153153153153
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.8161120840630472
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\Cavity\\1"
+      },
+      {
+        "case": "Cavity",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.7222222222222222,
+        "avg_similarity": 0.7320143605127758,
+        "high_similarity_files": 5,
+        "compared_files": 13,
+        "gt_files_total": 18,
+        "missing_files": [
+          "0/epsilon",
+          "0/k",
+          "0/nuTilda",
+          "0/nut",
+          "0/omega"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.3264058679706601
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.42105263157894735
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.44881889763779526
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5250737463126843
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.5725308641975309
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.6898550724637681
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.7163375224416517
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.8161120840630472
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\Cavity\\2"
+      },
+      {
+        "case": "Cavity",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.7222222222222222,
+        "avg_similarity": 0.7727465589262099,
+        "high_similarity_files": 5,
+        "compared_files": 13,
+        "gt_files_total": 18,
+        "missing_files": [
+          "0/epsilon",
+          "0/k",
+          "0/nuTilda",
+          "0/nut",
+          "0/omega"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.42105263157894735
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5221238938053098
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.5725308641975309
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.6234531526222746
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.6842400448681997
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.6898550724637681
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.7163375224416517
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.8161120840630472
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\Cavity\\3"
+      },
+      {
+        "case": "Cylinder",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4261705698581561,
+        "high_similarity_files": 0,
+        "compared_files": 8,
+        "gt_files_total": 8,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.05716070591910042
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.3305534495830174
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.3588709677419355
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.39955357142857145
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.4426106526631658
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5307346326836582
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.6037491919844861
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.6861313868613139
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\Cylinder\\1"
+      },
+      {
+        "case": "Cylinder",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4530890056435443,
+        "high_similarity_files": 0,
+        "compared_files": 8,
+        "gt_files_total": 8,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.07515583259127337
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.31555555555555553
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.35668789808917195
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.416289592760181
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5209580838323353
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.6133853151397011
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6324404761904762
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.6942392909896603
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\Cylinder\\2"
+      },
+      {
+        "case": "Cylinder",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4758861781614073,
+        "high_similarity_files": 0,
+        "compared_files": 8,
+        "gt_files_total": 8,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.05632921295571898
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.3544186046511628
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.47715736040609136
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.47878787878787876
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5201793721973094
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.6017369727047146
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6386554621848739
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.6798245614035088
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\Cylinder\\3"
+      },
+      {
+        "case": "counterFlowFlame2D",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8695652173913043,
+        "avg_similarity": 0.5673959025122544,
+        "high_similarity_files": 0,
+        "compared_files": 20,
+        "gt_files_total": 23,
+        "missing_files": [
+          "0/Qdot",
+          "0/uniform/time",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/thermo.compressibleGas",
+            "sim": 0.01546551190844417
+          },
+          {
+            "rel": "constant/reactions",
+            "sim": 0.10682492581602374
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4911147011308562
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.49591964846202136
+          },
+          {
+            "rel": "constant/combustionProperties",
+            "sim": 0.4984025559105431
+          },
+          {
+            "rel": "constant/chemistryProperties",
+            "sim": 0.5271739130434783
+          },
+          {
+            "rel": "0/CH4",
+            "sim": 0.6259426847662142
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.6268882175226587
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\counterFlowFlame2D\\1"
+      },
+      {
+        "case": "counterFlowFlame2D",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8695652173913043,
+        "avg_similarity": 0.5455271584794279,
+        "high_similarity_files": 0,
+        "compared_files": 20,
+        "gt_files_total": 23,
+        "missing_files": [
+          "0/Qdot",
+          "0/uniform/time",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/thermo.compressibleGas",
+            "sim": 0.01546551190844417
+          },
+          {
+            "rel": "constant/reactions",
+            "sim": 0.10682492581602374
+          },
+          {
+            "rel": "constant/combustionProperties",
+            "sim": 0.45808383233532934
+          },
+          {
+            "rel": "0/alphat",
+            "sim": 0.48903878583473864
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.4900990099009901
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4911147011308562
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.49591964846202136
+          },
+          {
+            "rel": "constant/chemistryProperties",
+            "sim": 0.5271739130434783
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\counterFlowFlame2D\\2"
+      },
+      {
+        "case": "counterFlowFlame2D",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8695652173913043,
+        "avg_similarity": 0.5699535789656627,
+        "high_similarity_files": 0,
+        "compared_files": 20,
+        "gt_files_total": 23,
+        "missing_files": [
+          "0/Qdot",
+          "0/uniform/time",
+          "system/functions"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/thermo.compressibleGas",
+            "sim": 0.005069708491761723
+          },
+          {
+            "rel": "constant/reactions",
+            "sim": 0.10682492581602374
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4911147011308562
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.49591964846202136
+          },
+          {
+            "rel": "constant/combustionProperties",
+            "sim": 0.4984025559105431
+          },
+          {
+            "rel": "constant/chemistryProperties",
+            "sim": 0.5686465433300877
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.6259426847662142
+          },
+          {
+            "rel": "0/CH4",
+            "sim": 0.6278366111951589
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\counterFlowFlame2D\\3"
+      },
+      {
+        "case": "forwardStep",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.48137531007118955,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.25533311453889074
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.41450777202072536
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.44022503516174405
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.45169230769230767
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.47714285714285715
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.4853932584269663
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4886731391585761
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.570670205706702
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\forwardStep\\1"
+      },
+      {
+        "case": "forwardStep",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.45324257547848756,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.266934942991281
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.3483068417415342
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.3853727144866385
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.39085545722713866
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.41450777202072536
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.44878048780487806
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4886731391585761
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.570670205706702
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\forwardStep\\2"
+      },
+      {
+        "case": "forwardStep",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4706069136692921,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.21506024096385543
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.3483068417415342
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.38591549295774646
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.41450777202072536
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.4407200496585971
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.48575712143928035
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4886731391585761
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.6914399469143995
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\forwardStep\\3"
+      },
+      {
+        "case": "obliqueShock",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4886008958962001,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.0851360781577111
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.23346303501945526
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.2639821029082774
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4886731391585761
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.599549211119459
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.6220640569395017
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6274777853725222
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.684931506849315
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\obliqueShock\\1"
+      },
+      {
+        "case": "obliqueShock",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.54525484782093,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.1040943789035392
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.17072007629947544
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.3767741935483871
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4911147011308562
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.7174076865109269
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.7323340471092077
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.747766323024055
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.7749510763209393
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\obliqueShock\\2"
+      },
+      {
+        "case": "obliqueShock",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4218499160430568,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/controlDict",
+            "sim": 0.0851360781577111
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.14785608674223755
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.3317972350230415
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.3767741935483871
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4911147011308562
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.49369085173501576
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.526080476900149
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5520684736091298
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\obliqueShock\\3"
+      },
+      {
+        "case": "pitzDaily",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.6152326502090983,
+        "high_similarity_files": 0,
+        "compared_files": 12,
+        "gt_files_total": 12,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.3068604258195336
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5181950509461426
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.6005089058524173
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.6011372867587328
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.6020114942528736
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.6028169014084507
+          },
+          {
+            "rel": "0/nuTilda",
+            "sim": 0.6098149637972646
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6133979015334947
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\pitzDaily\\1"
+      },
+      {
+        "case": "pitzDaily",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.6042067404159482,
+        "high_similarity_files": 0,
+        "compared_files": 12,
+        "gt_files_total": 12,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.3067608476286579
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5181950509461426
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.6005089058524173
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.6006493506493507
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.6074498567335244
+          },
+          {
+            "rel": "0/nuTilda",
+            "sim": 0.6098149637972646
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6117836965294592
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.6299435028248588
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\pitzDaily\\2"
+      },
+      {
+        "case": "pitzDaily",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.6009351035572391,
+        "high_similarity_files": 0,
+        "compared_files": 12,
+        "gt_files_total": 12,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.3067608476286579
+          },
+          {
+            "rel": "constant/physicalProperties",
+            "sim": 0.5152838427947598
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5664556962025317
+          },
+          {
+            "rel": "0/nuTilda",
+            "sim": 0.592948717948718
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.6005089058524173
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.6024442846872753
+          },
+          {
+            "rel": "0/epsilon",
+            "sim": 0.6028169014084507
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.6117836965294592
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\pitzDaily\\3"
+      },
+      {
+        "case": "shallowWaterWithSquareBump",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.46153846153846156,
+        "avg_similarity": 0.4833196821054028,
+        "high_similarity_files": 0,
+        "compared_files": 6,
+        "gt_files_total": 13,
+        "missing_files": [
+          "0/h",
+          "0/h.orig",
+          "0/hTotal",
+          "0/hU",
+          "0/hU.orig",
+          "constant/h0",
+          "constant/h0.orig"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/setFieldsDict",
+            "sim": 0.30514096185737977
+          },
+          {
+            "rel": "constant/gravitationalProperties",
+            "sim": 0.37967914438502676
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.43778280542986425
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5484848484848485
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.5923198316675434
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.6365105008077544
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\shallowWaterWithSquareBump\\1"
+      },
+      {
+        "case": "shallowWaterWithSquareBump",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.46153846153846156,
+        "avg_similarity": 0.4828971625855336,
+        "high_similarity_files": 0,
+        "compared_files": 6,
+        "gt_files_total": 13,
+        "missing_files": [
+          "0/h",
+          "0/h.orig",
+          "0/hTotal",
+          "0/hU",
+          "0/hU.orig",
+          "constant/h0",
+          "constant/h0.orig"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "system/setFieldsDict",
+            "sim": 0.30517241379310345
+          },
+          {
+            "rel": "constant/gravitationalProperties",
+            "sim": 0.3753501400560224
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.43778280542986425
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5484848484848485
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.569549822964087
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.661042944785276
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\shallowWaterWithSquareBump\\2"
+      },
+      {
+        "case": "shallowWaterWithSquareBump",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.46153846153846156,
+        "avg_similarity": 0.4203388059095299,
+        "high_similarity_files": 0,
+        "compared_files": 6,
+        "gt_files_total": 13,
+        "missing_files": [
+          "0/h",
+          "0/h.orig",
+          "0/hTotal",
+          "0/hU",
+          "0/hU.orig",
+          "constant/h0",
+          "constant/h0.orig"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/gravitationalProperties",
+            "sim": 0.0
+          },
+          {
+            "rel": "system/setFieldsDict",
+            "sim": 0.30517241379310345
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.43778280542986425
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.5484848484848485
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.569549822964087
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.661042944785276
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\shallowWaterWithSquareBump\\3"
+      },
+      {
+        "case": "squareBend",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8571428571428571,
+        "avg_similarity": 0.4197264182898548,
+        "high_similarity_files": 0,
+        "compared_files": 18,
+        "gt_files_total": 21,
+        "missing_files": [
+          "constant/polyMesh/cellZones",
+          "system/decomposeParDict",
+          "system/fvConstraints"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/polyMesh/faces",
+            "sim": 9.532846522637577e-05
+          },
+          {
+            "rel": "constant/polyMesh/points",
+            "sim": 0.0002756127894243966
+          },
+          {
+            "rel": "constant/polyMesh/owner",
+            "sim": 0.0004962298981387547
+          },
+          {
+            "rel": "constant/polyMesh/neighbour",
+            "sim": 0.0005137857308806717
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.2745664739884393
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.33026222537207656
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.40789473684210525
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.4473007712082262
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\squareBend\\1"
+      },
+      {
+        "case": "squareBend",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8571428571428571,
+        "avg_similarity": 0.43188718697292183,
+        "high_similarity_files": 0,
+        "compared_files": 18,
+        "gt_files_total": 21,
+        "missing_files": [
+          "constant/polyMesh/cellZones",
+          "system/decomposeParDict",
+          "system/fvConstraints"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/polyMesh/faces",
+            "sim": 9.532846522637577e-05
+          },
+          {
+            "rel": "constant/polyMesh/points",
+            "sim": 0.0002756127894243966
+          },
+          {
+            "rel": "constant/polyMesh/owner",
+            "sim": 0.0004962298981387547
+          },
+          {
+            "rel": "constant/polyMesh/neighbour",
+            "sim": 0.0005137857308806717
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.2585913576046274
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.3309659090909091
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.4270833333333333
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.43174603174603177
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\squareBend\\2"
+      },
+      {
+        "case": "squareBend",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 0.8571428571428571,
+        "avg_similarity": 0.4209841500786355,
+        "high_similarity_files": 0,
+        "compared_files": 18,
+        "gt_files_total": 21,
+        "missing_files": [
+          "constant/polyMesh/cellZones",
+          "system/decomposeParDict",
+          "system/fvConstraints"
+        ],
+        "top_mismatches": [
+          {
+            "rel": "constant/polyMesh/faces",
+            "sim": 9.532846522637577e-05
+          },
+          {
+            "rel": "constant/polyMesh/points",
+            "sim": 0.0002756127894243966
+          },
+          {
+            "rel": "constant/polyMesh/owner",
+            "sim": 0.0004962298981387547
+          },
+          {
+            "rel": "constant/polyMesh/neighbour",
+            "sim": 0.0005137857308806717
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.15756302521008403
+          },
+          {
+            "rel": "0/k",
+            "sim": 0.3304964539007092
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.40789473684210525
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.4500792393026941
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\squareBend\\3"
+      },
+      {
+        "case": "wedge",
+        "case_id": "1",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4582937736186353,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.14985014985014986
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.24029850746268658
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.2632459564974902
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4886731391585761
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.5234587049243893
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.5536277602523659
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.5537974683544303
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5595611285266457
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\wedge\\1"
+      },
+      {
+        "case": "wedge",
+        "case_id": "2",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.4958330969561535,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.29448621553884713
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.3069306930693069
+          },
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.34146341463414637
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4911147011308562
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.5219077161690577
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.565593087195601
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.5702938840349484
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5785770132916341
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\wedge\\2"
+      },
+      {
+        "case": "wedge",
+        "case_id": "3",
+        "status": "FAIL_OR_POOR",
+        "reason": "Insufficient GT alignment and/or explicit errors and/or no execution artifact.",
+        "coverage": 1.0,
+        "avg_similarity": 0.47452310052568536,
+        "high_similarity_files": 0,
+        "compared_files": 9,
+        "gt_files_total": 9,
+        "missing_files": [],
+        "top_mismatches": [
+          {
+            "rel": "system/fvSolution",
+            "sim": 0.20266889074228525
+          },
+          {
+            "rel": "system/controlDict",
+            "sim": 0.24029850746268658
+          },
+          {
+            "rel": "system/fvSchemes",
+            "sim": 0.29283489096573206
+          },
+          {
+            "rel": "constant/momentumTransport",
+            "sim": 0.4911147011308562
+          },
+          {
+            "rel": "system/blockMeshDict",
+            "sim": 0.5113904163393559
+          },
+          {
+            "rel": "0/T",
+            "sim": 0.5748218527315915
+          },
+          {
+            "rel": "0/p",
+            "sim": 0.579321231254933
+          },
+          {
+            "rel": "0/U",
+            "sim": 0.5861262665627436
+          }
+        ],
+        "error_hits": [],
+        "has_time_dir": false,
+        "run_path": "C:\\Users\\Peijing Xu\\projects\\yue_research\\error_analysis\\qwen-standard_runs\\wedge\\3"
+      }
+    ]
+  }
+}

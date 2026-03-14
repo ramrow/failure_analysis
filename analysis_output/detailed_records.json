@@ -1,0 +1,1382 @@
+[
+  {
+    "case": "BernardCells",
+    "relpath": "0/T",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.28466707391569945,
+    "qwen-benchmark_runs_char_acc": 0.16592427616926503,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5159362549800797,
+    "qwen-standard_runs_char_acc": 0.05953991880920163
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.2018881626724764,
+    "qwen-benchmark_runs_char_acc": 0.10324129651860744,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5847347994825356,
+    "qwen-standard_runs_char_acc": 0.07536764705882353
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/alphat",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.19440914866581957,
+    "qwen-benchmark_runs_char_acc": 0.11459459459459459,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.45,
+    "qwen-standard_runs_char_acc": 0.061633281972265024
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/epsilon",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.21782178217821782,
+    "qwen-benchmark_runs_char_acc": 0.11450381679389313,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.453125,
+    "qwen-standard_runs_char_acc": 0.06688963210702341
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/k",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.21747831887925284,
+    "qwen-benchmark_runs_char_acc": 0.09989023051591657,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4406392694063927,
+    "qwen-standard_runs_char_acc": 0.06972789115646258
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/nut",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.21059602649006623,
+    "qwen-benchmark_runs_char_acc": 0.10086767895878525,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4459613196814562,
+    "qwen-standard_runs_char_acc": 0.07993197278911565
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.597864768683274,
+    "qwen-standard_runs_char_acc": 0.0706896551724138
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "0/p_rgh",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.19423368740515934,
+    "qwen-benchmark_runs_char_acc": 0.14167812929848694,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.608092485549133,
+    "qwen-standard_runs_char_acc": 0.0676818950930626
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "constant/g",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.018505338078291814,
+    "qwen-benchmark_runs_char_acc": 0.09242761692650334,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5449358059914408,
+    "qwen-standard_runs_char_acc": 0.07297830374753451
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.00030900856533117027,
+    "qwen-benchmark_runs_char_acc": 0.000543673485238294,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.42776203966005666,
+    "qwen-standard_runs_char_acc": 0.04332129963898917
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.09838321293429653,
+    "qwen-benchmark_runs_char_acc": 0.10582576162479958,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7166666666666667,
+    "qwen-standard_runs_char_acc": 0.09942084942084942
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4343339587242026,
+    "qwen-benchmark_runs_char_acc": 0.24953789279112754,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5102564102564102,
+    "qwen-standard_runs_char_acc": 0.07024029574861368
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.04845548152634767,
+    "qwen-benchmark_runs_char_acc": 0.09400705052878966,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.24018126888217523,
+    "qwen-standard_runs_char_acc": 0.06875
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/functions",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.12906556530717606,
+    "qwen-benchmark_runs_char_acc": 0.09066183136899365,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6621392190152802,
+    "qwen-standard_runs_char_acc": 0.05439709882139619
+  },
+  {
+    "case": "BernardCells",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3484978540772532,
+    "qwen-benchmark_runs_char_acc": 0.2247863247863248,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7095391211146839,
+    "qwen-standard_runs_char_acc": 0.10341880341880341
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.54627539503386,
+    "qwen-benchmark_runs_char_acc": 0.11797752808988764,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7153153153153153,
+    "qwen-standard_runs_char_acc": 0.0800561797752809
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/epsilon",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/k",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/nuTilda",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/nut",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/omega",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "Cavity",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5662251655629139,
+    "qwen-benchmark_runs_char_acc": 0.10846953937592868,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6873184898354308,
+    "qwen-standard_runs_char_acc": 0.07726597325408618
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.24833702882483372,
+    "qwen-benchmark_runs_char_acc": 0.07636363636363637,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.42105263157894735,
+    "qwen-standard_runs_char_acc": 0.045454545454545456
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.29782082324455206,
+    "qwen-benchmark_runs_char_acc": 0.10220440881763528,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5250737463126843,
+    "qwen-standard_runs_char_acc": 0.06412825651302605
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/boundary",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.8854018069424632,
+    "qwen-standard_runs_char_acc": 0.16467576791808874
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/faces",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.014015145399060274,
+    "qwen-standard_runs_char_acc": 0.09325441502879017
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/neighbour",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.9656058227486799,
+    "qwen-standard_runs_char_acc": 0.3554083885209713
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/owner",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.9820911050011146,
+    "qwen-standard_runs_char_acc": 0.27171849905095635
+  },
+  {
+    "case": "Cavity",
+    "relpath": "constant/polyMesh/points",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.029705992064837736,
+    "qwen-standard_runs_char_acc": 0.19138916918937102
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5102880658436214,
+    "qwen-benchmark_runs_char_acc": 0.1016781836130306,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.8161120840630472,
+    "qwen-standard_runs_char_acc": 0.13030602171767028
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5230566534914362,
+    "qwen-benchmark_runs_char_acc": 0.09344660194174757,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5725308641975309,
+    "qwen-standard_runs_char_acc": 0.06674757281553398
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.34968017057569295,
+    "qwen-benchmark_runs_char_acc": 0.08155699721964782,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.32821143208358944,
+    "qwen-standard_runs_char_acc": 0.04633920296570899
+  },
+  {
+    "case": "Cavity",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3685932388222465,
+    "qwen-benchmark_runs_char_acc": 0.147239263803681,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.551791850760923,
+    "qwen-standard_runs_char_acc": 0.18791312559017942
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/CH4",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5838113448056087,
+    "qwen-benchmark_runs_char_acc": 0.13175675675675674,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6259426847662142,
+    "qwen-standard_runs_char_acc": 0.0777027027027027
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/CO2",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.583386992916935,
+    "qwen-benchmark_runs_char_acc": 0.1264236902050114,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6326219512195121,
+    "qwen-standard_runs_char_acc": 0.07972665148063782
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/H2O",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.583386992916935,
+    "qwen-benchmark_runs_char_acc": 0.1264236902050114,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6326219512195121,
+    "qwen-standard_runs_char_acc": 0.07972665148063782
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/N2",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5853658536585366,
+    "qwen-benchmark_runs_char_acc": 0.12244897959183673,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6419379258137774,
+    "qwen-standard_runs_char_acc": 0.07709750566893424
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/O2",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.588310854206808,
+    "qwen-benchmark_runs_char_acc": 0.12258796821793416,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6464799394398183,
+    "qwen-standard_runs_char_acc": 0.07377979568671963
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/Qdot",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/T",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5818414322250639,
+    "qwen-benchmark_runs_char_acc": 0.12302483069977427,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6268882175226587,
+    "qwen-standard_runs_char_acc": 0.0744920993227991
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.6074825618262524,
+    "qwen-benchmark_runs_char_acc": 0.10847457627118644,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6577181208053692,
+    "qwen-standard_runs_char_acc": 0.0903954802259887
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/Ydefault",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5841269841269842,
+    "qwen-benchmark_runs_char_acc": 0.1265397536394177,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6306306306306306,
+    "qwen-standard_runs_char_acc": 0.07166853303471445
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/alphat",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5258215962441315,
+    "qwen-benchmark_runs_char_acc": 0.12915129151291513,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6725239616613419,
+    "qwen-standard_runs_char_acc": 0.07872078720787208
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.49796472184531887,
+    "qwen-benchmark_runs_char_acc": 0.12993630573248408,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.638961038961039,
+    "qwen-standard_runs_char_acc": 0.07261146496815286
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "0/uniform/time",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/chemistryProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.022834116856950974,
+    "qwen-benchmark_runs_char_acc": 0.09171974522292993,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.020066889632107024,
+    "qwen-standard_runs_char_acc": 0.07244318181818182
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/combustionProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.032036613272311214,
+    "qwen-benchmark_runs_char_acc": 0.05463182897862233,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4984025559105431,
+    "qwen-standard_runs_char_acc": 0.04477611940298507
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.2905982905982906,
+    "qwen-benchmark_runs_char_acc": 0.08798283261802575,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4911147011308562,
+    "qwen-standard_runs_char_acc": 0.0536480686695279
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.1797945205479452,
+    "qwen-benchmark_runs_char_acc": 0.07448275862068965,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6439024390243903,
+    "qwen-standard_runs_char_acc": 0.07724137931034483
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/reactions",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.08648648648648649,
+    "qwen-benchmark_runs_char_acc": 0.03837684806542938,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.10434782608695652,
+    "qwen-standard_runs_char_acc": 0.02356902356902357
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "constant/thermo.compressibleGas",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.04254201680672269,
+    "qwen-benchmark_runs_char_acc": 0.07254261878853827,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.01546551190844417,
+    "qwen-standard_runs_char_acc": 0.01922379397896264
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.43656716417910446,
+    "qwen-benchmark_runs_char_acc": 0.14322691975841242,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.49591964846202136,
+    "qwen-standard_runs_char_acc": 0.04314063848144953
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3117723156532988,
+    "qwen-benchmark_runs_char_acc": 0.07226107226107226,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.728801681850035,
+    "qwen-standard_runs_char_acc": 0.07575757575757576
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/functions",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.41445562671546204,
+    "qwen-benchmark_runs_char_acc": 0.10369068541300527,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7876447876447876,
+    "qwen-standard_runs_char_acc": 0.05725190839694656
+  },
+  {
+    "case": "counterFlowFlame2D",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4509715318572074,
+    "qwen-benchmark_runs_char_acc": 0.1602112676056338,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6463414634146342,
+    "qwen-standard_runs_char_acc": 0.125
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5239085239085239,
+    "qwen-benchmark_runs_char_acc": 0.08151549942594719,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4426106526631658,
+    "qwen-standard_runs_char_acc": 0.0711825487944891
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5124653739612188,
+    "qwen-benchmark_runs_char_acc": 0.08779931584948689,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.3305534495830174,
+    "qwen-standard_runs_char_acc": 0.08209806157354618
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.37684003925417076,
+    "qwen-benchmark_runs_char_acc": 0.07718120805369127,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.39955357142857145,
+    "qwen-standard_runs_char_acc": 0.07046979865771812
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3123425692695214,
+    "qwen-benchmark_runs_char_acc": 0.09591836734693877,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5307346326836582,
+    "qwen-standard_runs_char_acc": 0.06938775510204082
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.09241034195162635,
+    "qwen-benchmark_runs_char_acc": 0.016497218492230962,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.05716070591910042,
+    "qwen-standard_runs_char_acc": 0.02570496834835987
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4512610770279482,
+    "qwen-benchmark_runs_char_acc": 0.08837772397094432,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6279234585400425,
+    "qwen-standard_runs_char_acc": 0.06053268765133172
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.20306513409961685,
+    "qwen-benchmark_runs_char_acc": 0.08048780487804878,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6037491919844861,
+    "qwen-standard_runs_char_acc": 0.08414634146341464
+  },
+  {
+    "case": "Cylinder",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.24518664047151276,
+    "qwen-benchmark_runs_char_acc": 0.1122257053291536,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.3588709677419355,
+    "qwen-standard_runs_char_acc": 0.09894736842105263
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "0/T",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5149017121116043,
+    "qwen-benchmark_runs_char_acc": 0.0861344537815126,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.47714285714285715,
+    "qwen-standard_runs_char_acc": 0.08403361344537816
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5202744853399875,
+    "qwen-benchmark_runs_char_acc": 0.08771929824561403,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.44022503516174405,
+    "qwen-standard_runs_char_acc": 0.07120743034055728
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5519053876478318,
+    "qwen-benchmark_runs_char_acc": 0.10734463276836158,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4853932584269663,
+    "qwen-standard_runs_char_acc": 0.08022598870056497
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.31088082901554404,
+    "qwen-benchmark_runs_char_acc": 0.0815450643776824,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4886731391585761,
+    "qwen-standard_runs_char_acc": 0.05150214592274678
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.18101545253863136,
+    "qwen-benchmark_runs_char_acc": 0.05991285403050109,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.570670205706702,
+    "qwen-standard_runs_char_acc": 0.09912854030501089
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.2386408534176215,
+    "qwen-benchmark_runs_char_acc": 0.09266409266409266,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.41450777202072536,
+    "qwen-standard_runs_char_acc": 0.08172458172458172
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.06923076923076923,
+    "qwen-benchmark_runs_char_acc": 0.07647740440324449,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7487401007919366,
+    "qwen-standard_runs_char_acc": 0.06257242178447277
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3988338192419825,
+    "qwen-benchmark_runs_char_acc": 0.11399548532731377,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.45169230769230767,
+    "qwen-standard_runs_char_acc": 0.09593679458239278
+  },
+  {
+    "case": "forwardStep",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.17681060863651818,
+    "qwen-benchmark_runs_char_acc": 0.1937984496124031,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.25533311453889074,
+    "qwen-standard_runs_char_acc": 0.1626360338573156
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "0/T",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3719256148770246,
+    "qwen-benchmark_runs_char_acc": 0.15752625437572929,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6220640569395017,
+    "qwen-standard_runs_char_acc": 0.11201866977829639
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4626951995373048,
+    "qwen-benchmark_runs_char_acc": 0.16798196166854565,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6274777853725222,
+    "qwen-standard_runs_char_acc": 0.11499436302142052
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3196405648267009,
+    "qwen-benchmark_runs_char_acc": 0.1524390243902439,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.599549211119459,
+    "qwen-standard_runs_char_acc": 0.09878048780487805
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.28498074454428757,
+    "qwen-benchmark_runs_char_acc": 0.07939914163090128,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4886731391585761,
+    "qwen-standard_runs_char_acc": 0.05150214592274678
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.22582921665490474,
+    "qwen-benchmark_runs_char_acc": 0.08387799564270153,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7921311475409836,
+    "qwen-standard_runs_char_acc": 0.10784313725490197
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.30318870883429166,
+    "qwen-benchmark_runs_char_acc": 0.11092150170648464,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.684931506849315,
+    "qwen-standard_runs_char_acc": 0.15443686006825938
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.09637046307884856,
+    "qwen-benchmark_runs_char_acc": 0.07344632768361582,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.0851360781577111,
+    "qwen-standard_runs_char_acc": 0.06666666666666667
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3757509557618788,
+    "qwen-benchmark_runs_char_acc": 0.09841269841269841,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.2639821029082774,
+    "qwen-standard_runs_char_acc": 0.0942350332594235
+  },
+  {
+    "case": "obliqueShock",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.11764705882352941,
+    "qwen-benchmark_runs_char_acc": 0.12790697674418605,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.23346303501945526,
+    "qwen-standard_runs_char_acc": 0.13197172034564023
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5960355434039645,
+    "qwen-benchmark_runs_char_acc": 0.10386473429951691,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6133979015334947,
+    "qwen-standard_runs_char_acc": 0.07971014492753623
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/epsilon",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5328330206378987,
+    "qwen-benchmark_runs_char_acc": 0.10261780104712041,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6028169014084507,
+    "qwen-standard_runs_char_acc": 0.06282722513089005
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/k",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5117759388924252,
+    "qwen-benchmark_runs_char_acc": 0.09391675560298826,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6020114942528736,
+    "qwen-standard_runs_char_acc": 0.07150480256136606
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/nuTilda",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.41009055627425617,
+    "qwen-benchmark_runs_char_acc": 0.12244897959183673,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6098149637972646,
+    "qwen-standard_runs_char_acc": 0.06842737094837935
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/nut",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4319136172765447,
+    "qwen-benchmark_runs_char_acc": 0.11795407098121086,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6573816155988857,
+    "qwen-standard_runs_char_acc": 0.08872651356993737
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5900962861072903,
+    "qwen-benchmark_runs_char_acc": 0.10399032648125756,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6011372867587328,
+    "qwen-standard_runs_char_acc": 0.07255139056831923
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.17355371900826447,
+    "qwen-benchmark_runs_char_acc": 0.0692167577413479,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6005089058524173,
+    "qwen-standard_runs_char_acc": 0.07832422586520947
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3075030750307503,
+    "qwen-benchmark_runs_char_acc": 0.09448818897637795,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5181950509461426,
+    "qwen-standard_runs_char_acc": 0.06299212598425197
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.22256664600123993,
+    "qwen-benchmark_runs_char_acc": 0.04823428079242033,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.3068604258195336,
+    "qwen-standard_runs_char_acc": 0.040051679586563305
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.33915857605177996,
+    "qwen-benchmark_runs_char_acc": 0.06783625730994151,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.636245110821382,
+    "qwen-standard_runs_char_acc": 0.07485380116959064
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4049079754601227,
+    "qwen-benchmark_runs_char_acc": 0.08817829457364341,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7864184008762322,
+    "qwen-standard_runs_char_acc": 0.08624031007751938
+  },
+  {
+    "case": "pitzDaily",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.372236958443855,
+    "qwen-benchmark_runs_char_acc": 0.17784711388455537,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7206385404789054,
+    "qwen-standard_runs_char_acc": 0.1326530612244898
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/h",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.19894055326662743,
+    "qwen-benchmark_runs_char_acc": 0.025293908086925544,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/h.orig",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/hTotal",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/hU",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "0/hU.orig",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "constant/gravitationalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.28308400460299193,
+    "qwen-benchmark_runs_char_acc": 0.07789855072463768,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.3818424566088118,
+    "qwen-standard_runs_char_acc": 0.06702898550724638
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "constant/h0",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "constant/h0.orig",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.6347124117053481,
+    "qwen-benchmark_runs_char_acc": 0.1933395004625347,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.43778280542986425,
+    "qwen-standard_runs_char_acc": 0.11840888066604996
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.45305514157973176,
+    "qwen-benchmark_runs_char_acc": 0.08387942332896461,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6365105008077544,
+    "qwen-standard_runs_char_acc": 0.06946264744429882
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.49101053936763794,
+    "qwen-benchmark_runs_char_acc": 0.1068075117370892,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5484848484848485,
+    "qwen-standard_runs_char_acc": 0.06438896189224705
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.43776371308016876,
+    "qwen-benchmark_runs_char_acc": 0.1295387634936212,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5923198316675434,
+    "qwen-standard_runs_char_acc": 0.17762512266928362
+  },
+  {
+    "case": "shallowWaterWithSquareBump",
+    "relpath": "system/setFieldsDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.24631396357328708,
+    "qwen-benchmark_runs_char_acc": 0.045743329097839895,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.30514096185737977,
+    "qwen-standard_runs_char_acc": 0.06480304955527319
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/T",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4473007712082262,
+    "qwen-standard_runs_char_acc": 0.07464607464607464
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.23761118170266837,
+    "qwen-benchmark_runs_char_acc": 0.1358313817330211,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6274228284278536,
+    "qwen-standard_runs_char_acc": 0.12177985948477751
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/alphat",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.616822429906542,
+    "qwen-standard_runs_char_acc": 0.08204518430439953
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/epsilon",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4694408322496749,
+    "qwen-standard_runs_char_acc": 0.08442211055276382
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/k",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.33026222537207656,
+    "qwen-standard_runs_char_acc": 0.09090909090909091
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/nut",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5980317940953823,
+    "qwen-standard_runs_char_acc": 0.07727272727272727
+  },
+  {
+    "case": "squareBend",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.40789473684210525,
+    "qwen-standard_runs_char_acc": 0.06951219512195123
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6007604562737643,
+    "qwen-standard_runs_char_acc": 0.08166969147005444
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.698859825620389,
+    "qwen-standard_runs_char_acc": 0.10222222222222223
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/boundary",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5794684731631058,
+    "qwen-standard_runs_char_acc": 0.14550509731232622
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/cellZones",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/faces",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 9.658310551976638e-05,
+    "qwen-standard_runs_char_acc": 4.71788564075859e-06
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/neighbour",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.0005126990226483003,
+    "qwen-standard_runs_char_acc": 2.4067055938494846e-05
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/owner",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.0004961726220951033,
+    "qwen-standard_runs_char_acc": 2.589256216971999e-05
+  },
+  {
+    "case": "squareBend",
+    "relpath": "constant/polyMesh/points",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.0002799273799013999,
+    "qwen-standard_runs_char_acc": 1.550797295905771e-05
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.2711976245463543,
+    "qwen-benchmark_runs_char_acc": 0.08831646734130635,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.2745664739884393,
+    "qwen-standard_runs_char_acc": 0.04645814167433303
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4044943820224719,
+    "qwen-benchmark_runs_char_acc": 0.08390022675736962,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.6916167664670658,
+    "qwen-standard_runs_char_acc": 0.07169344870210136
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/decomposeParDict",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/fvConstraints",
+    "qwen-benchmark_runs_exists": false,
+    "qwen-benchmark_runs_sim": 0.0,
+    "qwen-benchmark_runs_char_acc": 0.0,
+    "qwen-standard_runs_exists": false,
+    "qwen-standard_runs_sim": 0.0,
+    "qwen-standard_runs_char_acc": 0.0
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.4428507395786643,
+    "qwen-benchmark_runs_char_acc": 0.1091703056768559,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.580542264752791,
+    "qwen-standard_runs_char_acc": 0.06998158379373849
+  },
+  {
+    "case": "squareBend",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.32002956393200294,
+    "qwen-benchmark_runs_char_acc": 0.1766304347826087,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5474794841735052,
+    "qwen-standard_runs_char_acc": 0.050243111831442464
+  },
+  {
+    "case": "wedge",
+    "relpath": "0/T",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5502998001332445,
+    "qwen-benchmark_runs_char_acc": 0.11211778029445074,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5537974683544303,
+    "qwen-standard_runs_char_acc": 0.06681766704416761
+  },
+  {
+    "case": "wedge",
+    "relpath": "0/U",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5631196298744217,
+    "qwen-benchmark_runs_char_acc": 0.10022522522522523,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5595611285266457,
+    "qwen-standard_runs_char_acc": 0.061936936936936936
+  },
+  {
+    "case": "wedge",
+    "relpath": "0/p",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5514950166112956,
+    "qwen-benchmark_runs_char_acc": 0.10734463276836158,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5536277602523659,
+    "qwen-standard_runs_char_acc": 0.06892655367231638
+  },
+  {
+    "case": "wedge",
+    "relpath": "constant/momentumTransport",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.28498074454428757,
+    "qwen-benchmark_runs_char_acc": 0.07939914163090128,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.4886731391585761,
+    "qwen-standard_runs_char_acc": 0.05150214592274678
+  },
+  {
+    "case": "wedge",
+    "relpath": "constant/physicalProperties",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.23272727272727273,
+    "qwen-benchmark_runs_char_acc": 0.06535947712418301,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.7921311475409836,
+    "qwen-standard_runs_char_acc": 0.10784313725490197
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/blockMeshDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.3522975929978118,
+    "qwen-benchmark_runs_char_acc": 0.12182410423452769,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.5234587049243893,
+    "qwen-standard_runs_char_acc": 0.1022801302931596
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/controlDict",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.5025125628140703,
+    "qwen-benchmark_runs_char_acc": 0.08158508158508158,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.24029850746268658,
+    "qwen-standard_runs_char_acc": 0.0641025641025641
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/fvSchemes",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.37554585152838427,
+    "qwen-benchmark_runs_char_acc": 0.10042283298097252,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.2632459564974902,
+    "qwen-standard_runs_char_acc": 0.09371554575523705
+  },
+  {
+    "case": "wedge",
+    "relpath": "system/fvSolution",
+    "qwen-benchmark_runs_exists": true,
+    "qwen-benchmark_runs_sim": 0.13395904436860068,
+    "qwen-benchmark_runs_char_acc": 0.09481101857783472,
+    "qwen-standard_runs_exists": true,
+    "qwen-standard_runs_sim": 0.14985014985014986,
+    "qwen-standard_runs_char_acc": 0.14602132895816242
+  }
+]

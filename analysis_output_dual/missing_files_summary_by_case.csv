@@ -1,0 +1,12 @@
+run,case,missing_count
+benchmark,BernardCells,1
+benchmark,Cavity,5
+benchmark,counterFlowFlame2D,2
+benchmark,damBreakWithObstacle,18
+benchmark,shallowWaterWithSquareBump,6
+benchmark,squareBend,10
+standard,Cavity,1
+standard,counterFlowFlame2D,2
+standard,damBreakWithObstacle,17
+standard,shallowWaterWithSquareBump,7
+standard,squareBend,2

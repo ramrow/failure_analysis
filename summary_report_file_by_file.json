@@ -1,0 +1,15 @@
+{
+  "allowed_pairs_count": 365,
+  "standard_kept_files": 0,
+  "benchmark_kept_files": 0,
+  "standard_group_counts": {},
+  "benchmark_group_counts": {},
+  "common_pairs_count": 0,
+  "only_standard_count": 0,
+  "only_benchmark_count": 0,
+  "same_relpath_count": 0,
+  "diff_relpath_count": 0,
+  "only_standard_sample": [],
+  "only_benchmark_sample": [],
+  "diff_relpath_sample": []
+}

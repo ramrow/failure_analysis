@@ -1,0 +1,216 @@
+# Error Analysis Summary
+
+## JSONL load status
+- train.jsonl: total lines=267, parse_errors=267, indexed_pairs=0
+- test.jsonl: total lines=369, parse_errors=0, indexed_pairs=365
+
+## Per-run-folder analysis (independent)
+### qwen-benchmark_runs
+- extracted (case_name,file_name) pairs from files: **245**
+- missing from train.jsonl: **245**
+- missing from test.jsonl: **236**
+- missing from BOTH jsonls: **236**
+- sample missing-from-both (up to 50):
+  - BernardCells / Allrun
+  - BernardCells / Allrun.err
+  - BernardCells / Allrun.out
+  - BernardCells / T
+  - BernardCells / U
+  - BernardCells / blockMeshDict
+  - BernardCells / boundary
+  - BernardCells / controlDict
+  - BernardCells / epsilon
+  - BernardCells / faces
+  - BernardCells / fvSchemes
+  - BernardCells / fvSolution
+  - BernardCells / g
+  - BernardCells / k
+  - BernardCells / log.blockMesh
+  - BernardCells / log.buoyantFoam
+  - BernardCells / momentumTransport
+  - BernardCells / neighbour
+  - BernardCells / owner
+  - BernardCells / p_rgh
+  - BernardCells / physicalProperties
+  - BernardCells / points
+  - BernardCells / similar_case.txt
+  - Cavity / Allrun
+  - Cavity / Allrun.err
+  - Cavity / Allrun.out
+  - Cavity / U
+  - Cavity / blockMeshDict
+  - Cavity / boundary
+  - Cavity / controlDict
+  - Cavity / faces
+  - Cavity / fvSchemes
+  - Cavity / fvSolution
+  - Cavity / log.blockMesh
+  - Cavity / log.pisoFoam
+  - Cavity / momentumTransport
+  - Cavity / neighbour
+  - Cavity / owner
+  - Cavity / p
+  - Cavity / physicalProperties
+  - Cavity / points
+  - Cavity / similar_case.txt
+  - Cylinder / Allrun
+  - Cylinder / Allrun.err
+  - Cylinder / Allrun.out
+  - Cylinder / U
+  - Cylinder / blockMeshDict
+  - Cylinder / controlDict
+  - Cylinder / fvSchemes
+  - Cylinder / fvSolution
+
+### qwen-standard_runs
+- extracted (case_name,file_name) pairs from files: **187**
+- missing from train.jsonl: **187**
+- missing from test.jsonl: **178**
+- missing from BOTH jsonls: **178**
+- sample missing-from-both (up to 50):
+  - BernardCells / T
+  - BernardCells / U
+  - BernardCells / blockMeshDict
+  - BernardCells / boundary
+  - BernardCells / controlDict
+  - BernardCells / epsilon
+  - BernardCells / faces
+  - BernardCells / fvSchemes
+  - BernardCells / fvSolution
+  - BernardCells / g
+  - BernardCells / k
+  - BernardCells / momentumTransport
+  - BernardCells / neighbour
+  - BernardCells / owner
+  - BernardCells / p
+  - BernardCells / p_rgh
+  - BernardCells / physicalProperties
+  - BernardCells / points
+  - Cavity / U
+  - Cavity / blockMeshDict
+  - Cavity / boundary
+  - Cavity / controlDict
+  - Cavity / faces
+  - Cavity / fvSchemes
+  - Cavity / fvSolution
+  - Cavity / momentumTransport
+  - Cavity / neighbour
+  - Cavity / owner
+  - Cavity / p
+  - Cavity / physicalProperties
+  - Cavity / points
+  - Cylinder / U
+  - Cylinder / blockMeshDict
+  - Cylinder / boundary
+  - Cylinder / controlDict
+  - Cylinder / faces
+  - Cylinder / fvSchemes
+  - Cylinder / fvSolution
+  - Cylinder / momentumTransport
+  - Cylinder / neighbour
+  - Cylinder / owner
+  - Cylinder / p
+  - Cylinder / physicalProperties
+  - Cylinder / points
+  - counterFlowFlame2D / CH4
+  - counterFlowFlame2D / CO2
+  - counterFlowFlame2D / H2O
+  - counterFlowFlame2D / N2
+  - counterFlowFlame2D / O2
+  - counterFlowFlame2D / U
+
+## Cross-run comparison (qwen-benchmark_runs vs qwen-standard_runs)
+- pairs in qwen-benchmark_runs: **245**
+- pairs in qwen-standard_runs: **187**
+- common pairs: **150**
+- only in qwen-benchmark_runs: **95**
+- only in qwen-standard_runs: **37**
+- sample only-in-benchmark (up to 50):
+  - BernardCells / Allrun
+  - BernardCells / Allrun.err
+  - BernardCells / Allrun.out
+  - BernardCells / log.blockMesh
+  - BernardCells / log.buoyantFoam
+  - BernardCells / similar_case.txt
+  - Cavity / Allrun
+  - Cavity / Allrun.err
+  - Cavity / Allrun.out
+  - Cavity / log.blockMesh
+  - Cavity / log.pisoFoam
+  - Cavity / similar_case.txt
+  - Cylinder / Allrun
+  - Cylinder / Allrun.err
+  - Cylinder / Allrun.out
+  - Cylinder / log.blockMesh
+  - Cylinder / log.rhoPimpleFoam
+  - Cylinder / similar_case.txt
+  - counterFlowFlame2D / Allrun
+  - counterFlowFlame2D / Allrun.err
+  - counterFlowFlame2D / Allrun.out
+  - counterFlowFlame2D / log.blockMesh
+  - counterFlowFlame2D / log.reactingFoam
+  - counterFlowFlame2D / similar_case.txt
+  - counterFlowFlame2D / thermophysicalProperties
+  - damBreakWithObstacle / 0.org
+  - damBreakWithObstacle / Allrun
+  - damBreakWithObstacle / Allrun.err
+  - damBreakWithObstacle / Allrun.out
+  - damBreakWithObstacle / U
+  - damBreakWithObstacle / alpha.water
+  - damBreakWithObstacle / nu
+  - damBreakWithObstacle / p
+  - damBreakWithObstacle / similar_case.txt
+  - forwardStep / Allrun
+  - forwardStep / Allrun.err
+  - forwardStep / Allrun.out
+  - forwardStep / log.blockMesh
+  - forwardStep / log.rhoCentralFoam
+  - forwardStep / similar_case.txt
+  - obliqueShock / Allrun
+  - obliqueShock / Allrun.err
+  - obliqueShock / Allrun.out
+  - obliqueShock / log.blockMesh
+  - obliqueShock / log.rhoCentralFoam
+  - obliqueShock / similar_case.txt
+  - pitzDaily / Allrun
+  - pitzDaily / Allrun.err
+  - pitzDaily / Allrun.out
+  - pitzDaily / log.blockMesh
+- sample only-in-standard (up to 50):
+  - BernardCells / p
+  - Cylinder / boundary
+  - Cylinder / faces
+  - Cylinder / neighbour
+  - Cylinder / owner
+  - Cylinder / points
+  - counterFlowFlame2D / thermocompressibleGas
+  - damBreakWithObstacle / boundary
+  - damBreakWithObstacle / faces
+  - damBreakWithObstacle / neighbour
+  - damBreakWithObstacle / owner
+  - damBreakWithObstacle / points
+  - forwardStep / e
+  - obliqueShock / setFieldsDict
+  - shallowWaterWithSquareBump / T.orig
+  - shallowWaterWithSquareBump / alpha.water.orig
+  - shallowWaterWithSquareBump / p_rgh.orig
+  - shallowWaterWithSquareBump / phaseProperties
+  - shallowWaterWithSquareBump / physicalProperties.air
+  - shallowWaterWithSquareBump / physicalProperties.water
+  - squareBend / MRFProperties
+  - squareBend / ReThetat
+  - squareBend / alphat
+  - squareBend / boundary
+  - squareBend / faces
+  - squareBend / gammaInt
+  - squareBend / momentumTransport
+  - squareBend / neighbour
+  - squareBend / omega
+  - squareBend / owner
+  - squareBend / physicalProperties
+  - squareBend / points
+  - wedge / boundary
+  - wedge / faces
+  - wedge / neighbour
+  - wedge / owner
+  - wedge / points

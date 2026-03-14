@@ -1,0 +1,712 @@
+{
+  "BernardCells": {
+    "T": {
+      "benchmark_sim": 0.28466707391569945,
+      "standard_sim": 0.5159362549800797,
+      "winner": "standard"
+    },
+    "U": {
+      "benchmark_sim": 0.2018881626724764,
+      "standard_sim": 0.5847347994825356,
+      "winner": "standard"
+    },
+    "alphat": {
+      "benchmark_sim": 0.19440914866581957,
+      "standard_sim": 0.45,
+      "winner": "standard"
+    },
+    "epsilon": {
+      "benchmark_sim": 0.21782178217821782,
+      "standard_sim": 0.453125,
+      "winner": "standard"
+    },
+    "k": {
+      "benchmark_sim": 0.21747831887925284,
+      "standard_sim": 0.4406392694063927,
+      "winner": "standard"
+    },
+    "nut": {
+      "benchmark_sim": 0.21059602649006623,
+      "standard_sim": 0.4459613196814562,
+      "winner": "standard"
+    },
+    "p": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.597864768683274,
+      "winner": "standard"
+    },
+    "p_rgh": {
+      "benchmark_sim": 0.19423368740515934,
+      "standard_sim": 0.608092485549133,
+      "winner": "standard"
+    },
+    "g": {
+      "benchmark_sim": 0.018505338078291814,
+      "standard_sim": 0.5449358059914408,
+      "winner": "standard"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.00030900856533117027,
+      "standard_sim": 0.42776203966005666,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.09838321293429653,
+      "standard_sim": 0.7166666666666667,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.4343339587242026,
+      "standard_sim": 0.5102564102564102,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.04845548152634767,
+      "standard_sim": 0.24018126888217523,
+      "winner": "standard"
+    },
+    "functions": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.12906556530717606,
+      "standard_sim": 0.6621392190152802,
+      "winner": "standard"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.3484978540772532,
+      "standard_sim": 0.7095391211146839,
+      "winner": "standard"
+    }
+  },
+  "Cavity": {
+    "U": {
+      "benchmark_sim": 0.54627539503386,
+      "standard_sim": 0.7153153153153153,
+      "winner": "standard"
+    },
+    "epsilon": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "k": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "nuTilda": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "nut": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "omega": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "p": {
+      "benchmark_sim": 0.5662251655629139,
+      "standard_sim": 0.6873184898354308,
+      "winner": "standard"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.24833702882483372,
+      "standard_sim": 0.42105263157894735,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.29782082324455206,
+      "standard_sim": 0.5250737463126843,
+      "winner": "standard"
+    },
+    "boundary": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.8854018069424632,
+      "winner": "standard"
+    },
+    "faces": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.014015145399060274,
+      "winner": "standard"
+    },
+    "neighbour": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.9656058227486799,
+      "winner": "standard"
+    },
+    "owner": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.9820911050011146,
+      "winner": "standard"
+    },
+    "points": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.029705992064837736,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.5102880658436214,
+      "standard_sim": 0.8161120840630472,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.5230566534914362,
+      "standard_sim": 0.5725308641975309,
+      "winner": "standard"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.34968017057569295,
+      "standard_sim": 0.32821143208358944,
+      "winner": "benchmark"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.3685932388222465,
+      "standard_sim": 0.551791850760923,
+      "winner": "standard"
+    }
+  },
+  "counterFlowFlame2D": {
+    "CH4": {
+      "benchmark_sim": 0.5838113448056087,
+      "standard_sim": 0.6259426847662142,
+      "winner": "standard"
+    },
+    "CO2": {
+      "benchmark_sim": 0.583386992916935,
+      "standard_sim": 0.6326219512195121,
+      "winner": "standard"
+    },
+    "H2O": {
+      "benchmark_sim": 0.583386992916935,
+      "standard_sim": 0.6326219512195121,
+      "winner": "standard"
+    },
+    "N2": {
+      "benchmark_sim": 0.5853658536585366,
+      "standard_sim": 0.6419379258137774,
+      "winner": "standard"
+    },
+    "O2": {
+      "benchmark_sim": 0.588310854206808,
+      "standard_sim": 0.6464799394398183,
+      "winner": "standard"
+    },
+    "Qdot": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "T": {
+      "benchmark_sim": 0.5818414322250639,
+      "standard_sim": 0.6268882175226587,
+      "winner": "standard"
+    },
+    "U": {
+      "benchmark_sim": 0.6074825618262524,
+      "standard_sim": 0.6577181208053692,
+      "winner": "standard"
+    },
+    "Ydefault": {
+      "benchmark_sim": 0.5841269841269842,
+      "standard_sim": 0.6306306306306306,
+      "winner": "standard"
+    },
+    "alphat": {
+      "benchmark_sim": 0.5258215962441315,
+      "standard_sim": 0.6725239616613419,
+      "winner": "standard"
+    },
+    "p": {
+      "benchmark_sim": 0.49796472184531887,
+      "standard_sim": 0.638961038961039,
+      "winner": "standard"
+    },
+    "time": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "chemistryProperties": {
+      "benchmark_sim": 0.022834116856950974,
+      "standard_sim": 0.020066889632107024,
+      "winner": "benchmark"
+    },
+    "combustionProperties": {
+      "benchmark_sim": 0.032036613272311214,
+      "standard_sim": 0.4984025559105431,
+      "winner": "standard"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.2905982905982906,
+      "standard_sim": 0.4911147011308562,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.1797945205479452,
+      "standard_sim": 0.6439024390243903,
+      "winner": "standard"
+    },
+    "reactions": {
+      "benchmark_sim": 0.08648648648648649,
+      "standard_sim": 0.10434782608695652,
+      "winner": "standard"
+    },
+    "thermo.compressibleGas": {
+      "benchmark_sim": 0.04254201680672269,
+      "standard_sim": 0.01546551190844417,
+      "winner": "benchmark"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.43656716417910446,
+      "standard_sim": 0.49591964846202136,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.3117723156532988,
+      "standard_sim": 0.728801681850035,
+      "winner": "standard"
+    },
+    "functions": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.41445562671546204,
+      "standard_sim": 0.7876447876447876,
+      "winner": "standard"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.4509715318572074,
+      "standard_sim": 0.6463414634146342,
+      "winner": "standard"
+    }
+  },
+  "Cylinder": {
+    "U": {
+      "benchmark_sim": 0.5239085239085239,
+      "standard_sim": 0.4426106526631658,
+      "winner": "benchmark"
+    },
+    "p": {
+      "benchmark_sim": 0.5124653739612188,
+      "standard_sim": 0.3305534495830174,
+      "winner": "benchmark"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.37684003925417076,
+      "standard_sim": 0.39955357142857145,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.3123425692695214,
+      "standard_sim": 0.5307346326836582,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.09241034195162635,
+      "standard_sim": 0.05716070591910042,
+      "winner": "benchmark"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.4512610770279482,
+      "standard_sim": 0.6279234585400425,
+      "winner": "standard"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.20306513409961685,
+      "standard_sim": 0.6037491919844861,
+      "winner": "standard"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.24518664047151276,
+      "standard_sim": 0.3588709677419355,
+      "winner": "standard"
+    }
+  },
+  "forwardStep": {
+    "T": {
+      "benchmark_sim": 0.5149017121116043,
+      "standard_sim": 0.47714285714285715,
+      "winner": "benchmark"
+    },
+    "U": {
+      "benchmark_sim": 0.5202744853399875,
+      "standard_sim": 0.44022503516174405,
+      "winner": "benchmark"
+    },
+    "p": {
+      "benchmark_sim": 0.5519053876478318,
+      "standard_sim": 0.4853932584269663,
+      "winner": "benchmark"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.31088082901554404,
+      "standard_sim": 0.4886731391585761,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.18101545253863136,
+      "standard_sim": 0.570670205706702,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.2386408534176215,
+      "standard_sim": 0.41450777202072536,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.06923076923076923,
+      "standard_sim": 0.7487401007919366,
+      "winner": "standard"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.3988338192419825,
+      "standard_sim": 0.45169230769230767,
+      "winner": "standard"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.17681060863651818,
+      "standard_sim": 0.25533311453889074,
+      "winner": "standard"
+    }
+  },
+  "obliqueShock": {
+    "T": {
+      "benchmark_sim": 0.3719256148770246,
+      "standard_sim": 0.6220640569395017,
+      "winner": "standard"
+    },
+    "U": {
+      "benchmark_sim": 0.4626951995373048,
+      "standard_sim": 0.6274777853725222,
+      "winner": "standard"
+    },
+    "p": {
+      "benchmark_sim": 0.3196405648267009,
+      "standard_sim": 0.599549211119459,
+      "winner": "standard"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.28498074454428757,
+      "standard_sim": 0.4886731391585761,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.22582921665490474,
+      "standard_sim": 0.7921311475409836,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.30318870883429166,
+      "standard_sim": 0.684931506849315,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.09637046307884856,
+      "standard_sim": 0.0851360781577111,
+      "winner": "benchmark"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.3757509557618788,
+      "standard_sim": 0.2639821029082774,
+      "winner": "benchmark"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.11764705882352941,
+      "standard_sim": 0.23346303501945526,
+      "winner": "standard"
+    }
+  },
+  "pitzDaily": {
+    "U": {
+      "benchmark_sim": 0.5960355434039645,
+      "standard_sim": 0.6133979015334947,
+      "winner": "standard"
+    },
+    "epsilon": {
+      "benchmark_sim": 0.5328330206378987,
+      "standard_sim": 0.6028169014084507,
+      "winner": "standard"
+    },
+    "k": {
+      "benchmark_sim": 0.5117759388924252,
+      "standard_sim": 0.6020114942528736,
+      "winner": "standard"
+    },
+    "nuTilda": {
+      "benchmark_sim": 0.41009055627425617,
+      "standard_sim": 0.6098149637972646,
+      "winner": "standard"
+    },
+    "nut": {
+      "benchmark_sim": 0.4319136172765447,
+      "standard_sim": 0.6573816155988857,
+      "winner": "standard"
+    },
+    "p": {
+      "benchmark_sim": 0.5900962861072903,
+      "standard_sim": 0.6011372867587328,
+      "winner": "standard"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.17355371900826447,
+      "standard_sim": 0.6005089058524173,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.3075030750307503,
+      "standard_sim": 0.5181950509461426,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.22256664600123993,
+      "standard_sim": 0.3068604258195336,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.33915857605177996,
+      "standard_sim": 0.636245110821382,
+      "winner": "standard"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.4049079754601227,
+      "standard_sim": 0.7864184008762322,
+      "winner": "standard"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.372236958443855,
+      "standard_sim": 0.7206385404789054,
+      "winner": "standard"
+    }
+  },
+  "shallowWaterWithSquareBump": {
+    "h": {
+      "benchmark_sim": 0.19894055326662743,
+      "standard_sim": 0.0,
+      "winner": "benchmark"
+    },
+    "h.orig": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "hTotal": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "hU": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "hU.orig": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "gravitationalProperties": {
+      "benchmark_sim": 0.28308400460299193,
+      "standard_sim": 0.3818424566088118,
+      "winner": "standard"
+    },
+    "h0": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "h0.orig": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.6347124117053481,
+      "standard_sim": 0.43778280542986425,
+      "winner": "benchmark"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.45305514157973176,
+      "standard_sim": 0.6365105008077544,
+      "winner": "standard"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.49101053936763794,
+      "standard_sim": 0.5484848484848485,
+      "winner": "standard"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.43776371308016876,
+      "standard_sim": 0.5923198316675434,
+      "winner": "standard"
+    },
+    "setFieldsDict": {
+      "benchmark_sim": 0.24631396357328708,
+      "standard_sim": 0.30514096185737977,
+      "winner": "standard"
+    }
+  },
+  "squareBend": {
+    "T": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.4473007712082262,
+      "winner": "standard"
+    },
+    "U": {
+      "benchmark_sim": 0.23761118170266837,
+      "standard_sim": 0.6274228284278536,
+      "winner": "standard"
+    },
+    "alphat": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.616822429906542,
+      "winner": "standard"
+    },
+    "epsilon": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.4694408322496749,
+      "winner": "standard"
+    },
+    "k": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.33026222537207656,
+      "winner": "standard"
+    },
+    "nut": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.5980317940953823,
+      "winner": "standard"
+    },
+    "p": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.40789473684210525,
+      "winner": "standard"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.6007604562737643,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.698859825620389,
+      "winner": "standard"
+    },
+    "boundary": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.5794684731631058,
+      "winner": "standard"
+    },
+    "cellZones": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "faces": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 9.658310551976638e-05,
+      "winner": "standard"
+    },
+    "neighbour": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0005126990226483003,
+      "winner": "standard"
+    },
+    "owner": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0004961726220951033,
+      "winner": "standard"
+    },
+    "points": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0002799273799013999,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.2711976245463543,
+      "standard_sim": 0.2745664739884393,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.4044943820224719,
+      "standard_sim": 0.6916167664670658,
+      "winner": "standard"
+    },
+    "decomposeParDict": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "fvConstraints": {
+      "benchmark_sim": 0.0,
+      "standard_sim": 0.0,
+      "winner": "tie"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.4428507395786643,
+      "standard_sim": 0.580542264752791,
+      "winner": "standard"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.32002956393200294,
+      "standard_sim": 0.5474794841735052,
+      "winner": "standard"
+    }
+  },
+  "wedge": {
+    "T": {
+      "benchmark_sim": 0.5502998001332445,
+      "standard_sim": 0.5537974683544303,
+      "winner": "standard"
+    },
+    "U": {
+      "benchmark_sim": 0.5631196298744217,
+      "standard_sim": 0.5595611285266457,
+      "winner": "benchmark"
+    },
+    "p": {
+      "benchmark_sim": 0.5514950166112956,
+      "standard_sim": 0.5536277602523659,
+      "winner": "standard"
+    },
+    "momentumTransport": {
+      "benchmark_sim": 0.28498074454428757,
+      "standard_sim": 0.4886731391585761,
+      "winner": "standard"
+    },
+    "physicalProperties": {
+      "benchmark_sim": 0.23272727272727273,
+      "standard_sim": 0.7921311475409836,
+      "winner": "standard"
+    },
+    "blockMeshDict": {
+      "benchmark_sim": 0.3522975929978118,
+      "standard_sim": 0.5234587049243893,
+      "winner": "standard"
+    },
+    "controlDict": {
+      "benchmark_sim": 0.5025125628140703,
+      "standard_sim": 0.24029850746268658,
+      "winner": "benchmark"
+    },
+    "fvSchemes": {
+      "benchmark_sim": 0.37554585152838427,
+      "standard_sim": 0.2632459564974902,
+      "winner": "benchmark"
+    },
+    "fvSolution": {
+      "benchmark_sim": 0.13395904436860068,
+      "standard_sim": 0.14985014985014986,
+      "winner": "standard"
+    }
+  }
+}
