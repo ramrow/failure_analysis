@@ -1,0 +1,195 @@
+{
+  "standard_vs_gt_mean": 0.6621,
+  "velocity_vs_gt_mean": 0.6414,
+  "standard_vs_velocity_mean": 0.6757,
+  "winner_vs_gt": "qwen-standard",
+  "per_case": {
+    "BernardCells": {
+      "1": {
+        "standard_vs_gt": 0.7389,
+        "velocity_vs_gt": 0.6398,
+        "standard_vs_velocity": 0.5942
+      },
+      "2": {
+        "standard_vs_gt": 0.6917,
+        "velocity_vs_gt": 0.6349,
+        "standard_vs_velocity": 0.6487
+      },
+      "3": {
+        "standard_vs_gt": 0.7336,
+        "velocity_vs_gt": 0.6432,
+        "standard_vs_velocity": 0.5952
+      }
+    },
+    "Cavity": {
+      "1": {
+        "standard_vs_gt": 0.9101,
+        "velocity_vs_gt": 0.8856,
+        "standard_vs_velocity": 0.9493
+      },
+      "2": {
+        "standard_vs_gt": 0.8786,
+        "velocity_vs_gt": 0.8604,
+        "standard_vs_velocity": 0.9635
+      },
+      "3": {
+        "standard_vs_gt": 0.8712,
+        "velocity_vs_gt": 0.8412,
+        "standard_vs_velocity": 0.9467
+      }
+    },
+    "counterFlowFlame2D": {
+      "1": {
+        "standard_vs_gt": 0.673,
+        "velocity_vs_gt": 0.6432,
+        "standard_vs_velocity": 0.7014
+      },
+      "2": {
+        "standard_vs_gt": 0.6333,
+        "velocity_vs_gt": 0.6665,
+        "standard_vs_velocity": 0.673
+      },
+      "3": {
+        "standard_vs_gt": 0.6852,
+        "velocity_vs_gt": 0.8348,
+        "standard_vs_velocity": 0.6842
+      }
+    },
+    "Cylinder": {
+      "1": {
+        "standard_vs_gt": 0.7422,
+        "velocity_vs_gt": 0.7576,
+        "standard_vs_velocity": 0.7545
+      },
+      "2": {
+        "standard_vs_gt": 0.7135,
+        "velocity_vs_gt": 0.7364,
+        "standard_vs_velocity": 0.605
+      },
+      "3": {
+        "standard_vs_gt": 0.7155,
+        "velocity_vs_gt": 0.7137,
+        "standard_vs_velocity": 0.5735
+      }
+    },
+    "damBreakWithObstacle": {
+      "1": {
+        "standard_vs_gt": 0.1558,
+        "velocity_vs_gt": 0.0709,
+        "standard_vs_velocity": 0.4136
+      },
+      "2": {
+        "standard_vs_gt": 0.1241,
+        "velocity_vs_gt": 0.1046,
+        "standard_vs_velocity": 0.502
+      },
+      "3": {
+        "standard_vs_gt": 0.0767,
+        "velocity_vs_gt": 0.1485,
+        "standard_vs_velocity": 0.3779
+      }
+    },
+    "forwardStep": {
+      "1": {
+        "standard_vs_gt": 0.7954,
+        "velocity_vs_gt": 0.821,
+        "standard_vs_velocity": 0.6982
+      },
+      "2": {
+        "standard_vs_gt": 0.8034,
+        "velocity_vs_gt": 0.7883,
+        "standard_vs_velocity": 0.8081
+      },
+      "3": {
+        "standard_vs_gt": 0.7942,
+        "velocity_vs_gt": 0.8215,
+        "standard_vs_velocity": 0.7385
+      }
+    },
+    "obliqueShock": {
+      "1": {
+        "standard_vs_gt": 0.8472,
+        "velocity_vs_gt": 0.796,
+        "standard_vs_velocity": 0.7332
+      },
+      "2": {
+        "standard_vs_gt": 0.881,
+        "velocity_vs_gt": 0.8071,
+        "standard_vs_velocity": 0.7281
+      },
+      "3": {
+        "standard_vs_gt": 0.8342,
+        "velocity_vs_gt": 0.8119,
+        "standard_vs_velocity": 0.6805
+      }
+    },
+    "pitzDaily": {
+      "1": {
+        "standard_vs_gt": 0.8136,
+        "velocity_vs_gt": 0.813,
+        "standard_vs_velocity": 0.7209
+      },
+      "2": {
+        "standard_vs_gt": 0.8246,
+        "velocity_vs_gt": 0.8004,
+        "standard_vs_velocity": 0.658
+      },
+      "3": {
+        "standard_vs_gt": 0.812,
+        "velocity_vs_gt": 0.7794,
+        "standard_vs_velocity": 0.7548
+      }
+    },
+    "shallowWaterWithSquareBump": {
+      "1": {
+        "standard_vs_gt": 0.3666,
+        "velocity_vs_gt": 0.3471,
+        "standard_vs_velocity": 0.8678
+      },
+      "2": {
+        "standard_vs_gt": 0.3347,
+        "velocity_vs_gt": 0.3259,
+        "standard_vs_velocity": 0.8518
+      },
+      "3": {
+        "standard_vs_gt": 0.3075,
+        "velocity_vs_gt": 0.1464,
+        "standard_vs_velocity": 0.3697
+      }
+    },
+    "squareBend": {
+      "1": {
+        "standard_vs_gt": 0.5315,
+        "velocity_vs_gt": 0.4676,
+        "standard_vs_velocity": 0.6507
+      },
+      "2": {
+        "standard_vs_gt": 0.5325,
+        "velocity_vs_gt": 0.4653,
+        "standard_vs_velocity": 0.6162
+      },
+      "3": {
+        "standard_vs_gt": 0.6876,
+        "velocity_vs_gt": 0.5994,
+        "standard_vs_velocity": 0.5155
+      }
+    },
+    "wedge": {
+      "1": {
+        "standard_vs_gt": 0.7702,
+        "velocity_vs_gt": 0.8141,
+        "standard_vs_velocity": 0.5534
+      },
+      "2": {
+        "standard_vs_gt": 0.7915,
+        "velocity_vs_gt": 0.7952,
+        "standard_vs_velocity": 0.8134
+      },
+      "3": {
+        "standard_vs_gt": 0.7795,
+        "velocity_vs_gt": 0.7862,
+        "standard_vs_velocity": 0.5574
+      }
+    }
+  }
+}
